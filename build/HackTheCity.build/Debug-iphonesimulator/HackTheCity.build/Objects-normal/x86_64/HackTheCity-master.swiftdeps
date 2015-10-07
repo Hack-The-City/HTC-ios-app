@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "5d7b2b2dc06438c7c6537b6f1f7b09e7"
+build_time: [497546774, 360339000]
+inputs: 
+	"/Users/Vidyadhar/Desktop/Github/HTC-ios-app/HackTheCity/AppDelegate.swift": [497546715, 0]
+	"/Users/Vidyadhar/Desktop/Github/HTC-ios-app/HackTheCity/ViewController.swift": [497546715, 0]
