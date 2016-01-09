@@ -6,24 +6,24 @@ provides-nominal:
 provides-member:
 - ["C11HackTheCity20EventsViewController", ""]
 provides-dynamic-lookup:
-- "dateTime"
 - "didReceiveMemoryWarning"
+- "dateTime"
+- "tableView"
+- "tableView"
 - "viewDidLoad"
-- "tableView"
-- "tableView"
 depends-top-level:
 - "Array"
-- "UIViewController"
-- "eventObject"
-- "NSIndexPath"
-- "UITableViewDelegate"
 - "UITableView"
 - "UITableViewDataSource"
-- "EventsViewController"
+- "NSIndexPath"
+- "UITableViewDelegate"
 - "StringLiteralType"
-- "Int"
-- "UITableViewCell"
 - !private "EventCell"
+- "UITableViewCell"
+- "Int"
+- "EventsViewController"
+- "UIViewController"
+- "eventObject"
 depends-member:
 - ["PSs9AnyObject", "Array"]
 - ["PSs9AnyObject", "dateTime"]

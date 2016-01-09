@@ -9,13 +9,8 @@
 import UIKit
 
 class CustomNavBar: UINavigationController {
-    
-    //let navBar = UINavigationBar()
-    var dateTime = "10Hrs 31Mins"
-    
+
     override func viewDidLoad() {
-        self.navigationItem.title = dateTime
-        
     }
 
     /*

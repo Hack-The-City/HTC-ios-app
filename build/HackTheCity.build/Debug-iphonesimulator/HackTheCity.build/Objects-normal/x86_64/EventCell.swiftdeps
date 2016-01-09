@@ -6,17 +6,17 @@ provides-nominal:
 provides-member:
 - ["C11HackTheCity9EventCell", ""]
 provides-dynamic-lookup:
-- "setSelected"
-- "eventDesc"
-- "eventName"
-- "awakeFromNib"
 - "eventTime"
+- "eventDesc"
+- "awakeFromNib"
+- "eventName"
+- "setSelected"
 depends-top-level:
-- "UITableViewCell"
-- "UILabel"
 - "Bool"
-- "EventCell"
 - "UITextView"
+- "UITableViewCell"
+- "EventCell"
+- "UILabel"
 depends-member:
 - ["PSs9AnyObject", "awakeFromNib"]
 - ["PSs9AnyObject", "eventDesc"]

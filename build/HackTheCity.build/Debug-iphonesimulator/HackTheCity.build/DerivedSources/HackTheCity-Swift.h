@@ -113,7 +113,6 @@ SWIFT_CLASS("_TtC11HackTheCity11AppDelegate")
 
 SWIFT_CLASS("_TtC11HackTheCity12CustomNavBar")
 @interface CustomNavBar : UINavigationController
-@property (nonatomic, copy) NSString * __nonnull dateTime;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNavigationBarClass:(Class __nullable)navigationBarClass toolbarClass:(Class __nullable)toolbarClass OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithRootViewController:(UIViewController * __nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
@@ -161,8 +160,10 @@ SWIFT_CLASS("_TtC11HackTheCity17MapViewController")
 
 
 SWIFT_CLASS("_TtC11HackTheCity21MentorsViewController")
-@interface MentorsViewController : UIViewController
-@property (nonatomic, copy) NSString * __nonnull dateTime;
+@interface MentorsViewController : UIViewController <UITableViewDataSource>
+- (NSInteger)numberOfSectionsInTableView:(UITableView * __nonnull)tableView;
+- (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * __nonnull)tableView:(UITableView * __nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -170,11 +171,11 @@ SWIFT_CLASS("_TtC11HackTheCity21MentorsViewController")
 @end
 
 
-SWIFT_CLASS("_TtC11HackTheCity14ViewController")
-@interface ViewController : UIViewController
-- (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
-- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS("_TtC11HackTheCity12ScheduleCell")
+@interface ScheduleCell : UITableViewCell
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 

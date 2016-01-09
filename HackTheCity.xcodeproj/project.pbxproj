@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		B1ECE4B41C41D1090038EBC0 /* Mentors.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1ECE4B31C41D1090038EBC0 /* Mentors.storyboard */; };
 		C2066DD41BC570DB00108981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2066DD31BC570DB00108981 /* AppDelegate.swift */; };
-		C2066DD61BC570DB00108981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2066DD51BC570DB00108981 /* ViewController.swift */; };
 		C2066DD91BC570DB00108981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2066DD71BC570DB00108981 /* Main.storyboard */; };
 		C2066DDB1BC570DB00108981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2066DDA1BC570DB00108981 /* Assets.xcassets */; };
 		C2066DDE1BC570DB00108981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2066DDC1BC570DB00108981 /* LaunchScreen.storyboard */; };
 		C2066DE91BC570DC00108981 /* HackTheCityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2066DE81BC570DC00108981 /* HackTheCityTests.swift */; };
 		C2066DF41BC570DC00108981 /* HackTheCityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2066DF31BC570DC00108981 /* HackTheCityUITests.swift */; };
+		C2129D431C41D2F800AEBDA3 /* Schedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2129D421C41D2F800AEBDA3 /* Schedule.storyboard */; };
+		C2129D451C41D30B00AEBDA3 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2129D441C41D30B00AEBDA3 /* Map.storyboard */; };
+		C2129D471C41D39100AEBDA3 /* Announcements.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2129D461C41D39100AEBDA3 /* Announcements.storyboard */; };
+		C2129D491C41D57E00AEBDA3 /* ScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2129D481C41D57E00AEBDA3 /* ScheduleCell.swift */; };
 		C2FDA1C01C41ADE6000A0024 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDA1BF1C41ADE6000A0024 /* EventsViewController.swift */; };
 		C2FDA1C21C41AE53000A0024 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDA1C11C41AE53000A0024 /* MapViewController.swift */; };
 		C2FDA1C41C41AE5D000A0024 /* MentorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDA1C31C41AE5D000A0024 /* MentorsViewController.swift */; };
@@ -44,7 +47,6 @@
 		B1ECE4B31C41D1090038EBC0 /* Mentors.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mentors.storyboard; sourceTree = "<group>"; };
 		C2066DD01BC570DB00108981 /* HackTheCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackTheCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2066DD31BC570DB00108981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2066DD51BC570DB00108981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C2066DD81BC570DB00108981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2066DDA1BC570DB00108981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2066DDD1BC570DB00108981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +57,10 @@
 		C2066DEF1BC570DC00108981 /* HackTheCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackTheCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2066DF31BC570DC00108981 /* HackTheCityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackTheCityUITests.swift; sourceTree = "<group>"; };
 		C2066DF51BC570DC00108981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2129D421C41D2F800AEBDA3 /* Schedule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Schedule.storyboard; sourceTree = "<group>"; };
+		C2129D441C41D30B00AEBDA3 /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		C2129D461C41D39100AEBDA3 /* Announcements.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Announcements.storyboard; sourceTree = "<group>"; };
+		C2129D481C41D57E00AEBDA3 /* ScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCell.swift; sourceTree = "<group>"; };
 		C2FDA1BF1C41ADE6000A0024 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		C2FDA1C11C41AE53000A0024 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C2FDA1C31C41AE5D000A0024 /* MentorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentorsViewController.swift; sourceTree = "<group>"; };
@@ -111,19 +117,16 @@
 		C2066DD21BC570DB00108981 /* HackTheCity */ = {
 			isa = PBXGroup;
 			children = (
-				C2066DD31BC570DB00108981 /* AppDelegate.swift */,
-				C2066DD51BC570DB00108981 /* ViewController.swift */,
-				C2FDA1C11C41AE53000A0024 /* MapViewController.swift */,
-				C2FDA1C31C41AE5D000A0024 /* MentorsViewController.swift */,
-				C2FDA1BF1C41ADE6000A0024 /* EventsViewController.swift */,
-				C2FDA1CB1C41B380000A0024 /* Objects.swift */,
-				C2FDA1C51C41AECA000A0024 /* CustomNav.swift */,
-				C2FDA1C91C41B115000A0024 /* EventCell.swift */,
 				C2066DD71BC570DB00108981 /* Main.storyboard */,
+				C2FDA1C51C41AECA000A0024 /* CustomNav.swift */,
+				C2129D4D1C41D5AA00AEBDA3 /* Schedule */,
+				C2129D4C1C41D5A000AEBDA3 /* Announcements */,
+				C2129D4B1C41D59800AEBDA3 /* Map */,
+				C2129D4A1C41D58B00AEBDA3 /* Mentors */,
+				C2066DD31BC570DB00108981 /* AppDelegate.swift */,
 				C2066DDA1BC570DB00108981 /* Assets.xcassets */,
 				C2066DDC1BC570DB00108981 /* LaunchScreen.storyboard */,
 				C2066DDF1BC570DB00108981 /* Info.plist */,
-				B1ECE4B31C41D1090038EBC0 /* Mentors.storyboard */,
 			);
 			path = HackTheCity;
 			sourceTree = "<group>";
@@ -144,6 +147,44 @@
 				C2066DF51BC570DC00108981 /* Info.plist */,
 			);
 			path = HackTheCityUITests;
+			sourceTree = "<group>";
+		};
+		C2129D4A1C41D58B00AEBDA3 /* Mentors */ = {
+			isa = PBXGroup;
+			children = (
+				B1ECE4B31C41D1090038EBC0 /* Mentors.storyboard */,
+				C2FDA1C31C41AE5D000A0024 /* MentorsViewController.swift */,
+			);
+			name = Mentors;
+			sourceTree = "<group>";
+		};
+		C2129D4B1C41D59800AEBDA3 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				C2129D441C41D30B00AEBDA3 /* Map.storyboard */,
+				C2FDA1C11C41AE53000A0024 /* MapViewController.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		C2129D4C1C41D5A000AEBDA3 /* Announcements */ = {
+			isa = PBXGroup;
+			children = (
+				C2129D461C41D39100AEBDA3 /* Announcements.storyboard */,
+				C2FDA1CB1C41B380000A0024 /* Objects.swift */,
+				C2FDA1C91C41B115000A0024 /* EventCell.swift */,
+			);
+			name = Announcements;
+			sourceTree = "<group>";
+		};
+		C2129D4D1C41D5AA00AEBDA3 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				C2129D421C41D2F800AEBDA3 /* Schedule.storyboard */,
+				C2129D481C41D57E00AEBDA3 /* ScheduleCell.swift */,
+				C2FDA1BF1C41ADE6000A0024 /* EventsViewController.swift */,
+			);
+			name = Schedule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +291,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2066DDE1BC570DB00108981 /* LaunchScreen.storyboard in Resources */,
+				C2129D471C41D39100AEBDA3 /* Announcements.storyboard in Resources */,
 				B1ECE4B41C41D1090038EBC0 /* Mentors.storyboard in Resources */,
 				C2066DDB1BC570DB00108981 /* Assets.xcassets in Resources */,
 				C2066DD91BC570DB00108981 /* Main.storyboard in Resources */,
+				C2129D431C41D2F800AEBDA3 /* Schedule.storyboard in Resources */,
+				C2129D451C41D30B00AEBDA3 /* Map.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,10 +321,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2066DD61BC570DB00108981 /* ViewController.swift in Sources */,
 				C2066DD41BC570DB00108981 /* AppDelegate.swift in Sources */,
 				C2FDA1CC1C41B380000A0024 /* Objects.swift in Sources */,
 				C2FDA1C61C41AECA000A0024 /* CustomNav.swift in Sources */,
+				C2129D491C41D57E00AEBDA3 /* ScheduleCell.swift in Sources */,
 				C2FDA1C01C41ADE6000A0024 /* EventsViewController.swift in Sources */,
 				C2FDA1C41C41AE5D000A0024 /* MentorsViewController.swift in Sources */,
 				C2FDA1C21C41AE53000A0024 /* MapViewController.swift in Sources */,
