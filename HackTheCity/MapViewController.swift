@@ -10,10 +10,17 @@ import UIKit
 
 class MapViewController: UIViewController {
 
+    var dateTime = "10Hrs 31Mins"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // load date time from db here
+        
+        // set the title to the datetime
+        self.navigationItem.title = dateTime
     }
 
     override func didReceiveMemoryWarning() {

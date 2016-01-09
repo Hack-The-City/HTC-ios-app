@@ -18,7 +18,7 @@ class MentorsViewController: UIViewController {
         // load date time from db here
         
         // set the title to the datetime
-        self.title = dateTime
+        self.navigationItem.title = dateTime
 
         // Do any additional setup after loading the view.
     }

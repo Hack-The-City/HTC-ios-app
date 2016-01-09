@@ -6,128 +6,109 @@ provides-nominal:
 provides-member:
 - ["C11HackTheCity12CustomNavBar", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "dateTime"
-- "navBar"
+- "viewDidLoad"
 depends-top-level:
 - "UINavigationController"
-- "UINavigationBar"
 - "StringLiteralType"
 - "CustomNavBar"
 depends-member:
-- ["PSs9AnyObject", "UINavigationBar"]
 - ["PSs9AnyObject", "dateTime"]
 - ["PSs9AnyObject", "init"]
-- ["PSs9AnyObject", "navBar"]
+- !private ["PSs9AnyObject", "navigationItem"]
+- !private ["PSs9AnyObject", "title"]
 - ["PSs9AnyObject", "viewDidLoad"]
 - ["PSs9AnyObject", ""]
-- ["PSs11CVarArgType", "UINavigationBar"]
 - ["PSs11CVarArgType", "dateTime"]
 - ["PSs11CVarArgType", "init"]
-- ["PSs11CVarArgType", "navBar"]
+- !private ["PSs11CVarArgType", "navigationItem"]
+- !private ["PSs11CVarArgType", "title"]
 - ["PSs11CVarArgType", "viewDidLoad"]
 - ["PSs11CVarArgType", ""]
-- ["C11HackTheCity12CustomNavBar", "UINavigationBar"]
 - ["C11HackTheCity12CustomNavBar", "dateTime"]
 - ["C11HackTheCity12CustomNavBar", "deinit"]
 - ["C11HackTheCity12CustomNavBar", "init"]
-- ["C11HackTheCity12CustomNavBar", "navBar"]
+- !private ["C11HackTheCity12CustomNavBar", "navigationItem"]
 - ["C11HackTheCity12CustomNavBar", "viewDidLoad"]
-- ["PSs23CustomStringConvertible", "UINavigationBar"]
 - ["PSs23CustomStringConvertible", "dateTime"]
 - ["PSs23CustomStringConvertible", "init"]
-- ["PSs23CustomStringConvertible", "navBar"]
+- !private ["PSs23CustomStringConvertible", "navigationItem"]
+- !private ["PSs23CustomStringConvertible", "title"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
 - ["PSs23CustomStringConvertible", ""]
-- ["PSs9Equatable", "UINavigationBar"]
 - ["PSs9Equatable", "dateTime"]
 - ["PSs9Equatable", "init"]
-- ["PSs9Equatable", "navBar"]
+- !private ["PSs9Equatable", "navigationItem"]
+- !private ["PSs9Equatable", "title"]
 - ["PSs9Equatable", "viewDidLoad"]
 - ["PSs9Equatable", ""]
-- ["PSs8Hashable", "UINavigationBar"]
 - ["PSs8Hashable", "dateTime"]
 - ["PSs8Hashable", "init"]
-- ["PSs8Hashable", "navBar"]
+- !private ["PSs8Hashable", "navigationItem"]
+- !private ["PSs8Hashable", "title"]
 - ["PSs8Hashable", "viewDidLoad"]
 - ["PSs8Hashable", ""]
-- ["PSo8NSCoding", "UINavigationBar"]
 - ["PSo8NSCoding", "dateTime"]
 - ["PSo8NSCoding", "init"]
-- ["PSo8NSCoding", "navBar"]
+- !private ["PSo8NSCoding", "navigationItem"]
+- !private ["PSo8NSCoding", "title"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
-- ["PSo26NSExtensionRequestHandling", "UINavigationBar"]
 - ["PSo26NSExtensionRequestHandling", "dateTime"]
 - ["PSo26NSExtensionRequestHandling", "init"]
-- ["PSo26NSExtensionRequestHandling", "navBar"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
-- ["CSo8NSObject", "UINavigationBar"]
 - ["CSo8NSObject", "dateTime"]
 - ["CSo8NSObject", "init"]
-- ["CSo8NSObject", "navBar"]
+- !private ["CSo8NSObject", "navigationItem"]
+- !private ["CSo8NSObject", "title"]
 - ["CSo8NSObject", "viewDidLoad"]
-- ["PSo16NSObjectProtocol", "UINavigationBar"]
 - ["PSo16NSObjectProtocol", "dateTime"]
 - ["PSo16NSObjectProtocol", "init"]
-- ["PSo16NSObjectProtocol", "navBar"]
+- !private ["PSo16NSObjectProtocol", "navigationItem"]
+- !private ["PSo16NSObjectProtocol", "title"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
-- ["PSo29UIAccessibilityIdentification", "init"]
-- ["PSo12UIAppearance", "init"]
-- ["PSo21UIAppearanceContainer", "UINavigationBar"]
 - ["PSo21UIAppearanceContainer", "dateTime"]
 - ["PSo21UIAppearanceContainer", "init"]
-- ["PSo21UIAppearanceContainer", "navBar"]
+- !private ["PSo21UIAppearanceContainer", "navigationItem"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
-- ["PSo16UIBarPositioning", "init"]
-- ["PSo18UIContentContainer", "UINavigationBar"]
 - ["PSo18UIContentContainer", "dateTime"]
 - ["PSo18UIContentContainer", "init"]
-- ["PSo18UIContentContainer", "navBar"]
+- !private ["PSo18UIContentContainer", "navigationItem"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
-- ["PSo17UICoordinateSpace", "init"]
-- ["PSo13UIDynamicItem", "init"]
-- ["PSo18UIFocusEnvironment", "UINavigationBar"]
 - ["PSo18UIFocusEnvironment", "dateTime"]
 - ["PSo18UIFocusEnvironment", "init"]
-- ["PSo18UIFocusEnvironment", "navBar"]
+- !private ["PSo18UIFocusEnvironment", "navigationItem"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
-- ["CSo15UINavigationBar", "init"]
-- ["CSo22UINavigationController", "UINavigationBar"]
 - ["CSo22UINavigationController", "dateTime"]
 - ["CSo22UINavigationController", "init"]
-- ["CSo22UINavigationController", "navBar"]
+- !private ["CSo22UINavigationController", "navigationItem"]
 - ["CSo22UINavigationController", "viewDidLoad"]
 - ["CSo22UINavigationController", ""]
-- ["CSo11UIResponder", "UINavigationBar"]
+- !private ["CSo16UINavigationItem", "title"]
 - ["CSo11UIResponder", "dateTime"]
 - ["CSo11UIResponder", "init"]
-- ["CSo11UIResponder", "navBar"]
+- !private ["CSo11UIResponder", "navigationItem"]
 - ["CSo11UIResponder", "viewDidLoad"]
-- ["PSo16UIStateRestoring", "UINavigationBar"]
 - ["PSo16UIStateRestoring", "dateTime"]
 - ["PSo16UIStateRestoring", "init"]
-- ["PSo16UIStateRestoring", "navBar"]
+- !private ["PSo16UIStateRestoring", "navigationItem"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
-- ["PSo18UITraitEnvironment", "UINavigationBar"]
 - ["PSo18UITraitEnvironment", "dateTime"]
 - ["PSo18UITraitEnvironment", "init"]
-- ["PSo18UITraitEnvironment", "navBar"]
+- !private ["PSo18UITraitEnvironment", "navigationItem"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
-- ["CSo6UIView", "init"]
-- ["CSo16UIViewController", "UINavigationBar"]
 - ["CSo16UIViewController", "dateTime"]
 - ["CSo16UIViewController", "init"]
-- ["CSo16UIViewController", "navBar"]
+- !private ["CSo16UIViewController", "navigationItem"]
 - ["CSo16UIViewController", "viewDidLoad"]
-- ["PSs12_Reflectable", "init"]
 depends-nominal:
 - "PSs9AnyObject"
 - "PSs11CVarArgType"
@@ -139,22 +120,15 @@ depends-nominal:
 - "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
-- "PSo29UIAccessibilityIdentification"
-- "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
-- "PSo16UIBarPositioning"
 - "PSo18UIContentContainer"
-- "PSo17UICoordinateSpace"
-- "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
-- "CSo15UINavigationBar"
 - "CSo22UINavigationController"
+- !private "CSo16UINavigationItem"
 - "CSo11UIResponder"
 - "PSo16UIStateRestoring"
 - "PSo18UITraitEnvironment"
-- "CSo6UIView"
 - "CSo16UIViewController"
-- "PSs12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -165,4 +139,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "4ef1db6eae57ecf9f05415e439173b29"
+interface-hash: "84d2e6afd6e319cb8f6bb5c1a9985f30"
