@@ -114,28 +114,10 @@
             </objects>
             <point key="canvasLocation" x="2064" y="387"/>
         </scene>
-        <!--Mentors View Controller-->
-        <scene sceneID="Mzx-Np-fFY">
-            <objects>
-                <viewController id="pPB-qi-xqD" customClass="MentorsViewController" customModule="HackTheCity" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Mkp-FS-rgc"/>
-                        <viewControllerLayoutGuide type="bottom" id="7ei-bq-xIP"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="xsm-j3-o1W">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="71Y-Nm-Rmq"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="scn-kl-CJa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2071" y="1148"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="4cl-U7-LjH">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mQA-ks-ady" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="uMK-71-BUg" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="CNb-ls-rhL">
@@ -148,7 +130,6 @@
                         <segue destination="7nO-6n-OfJ" kind="relationship" relationship="viewControllers" id="Qmj-qq-VSn"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mQA-ks-ady" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="440" y="387"/>
         </scene>
@@ -190,6 +171,16 @@
             </objects>
             <point key="canvasLocation" x="1252" y="387"/>
         </scene>
+        <!--Mentors-->
+        <scene sceneID="G23-Ge-FQS">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Mentors" id="M5O-Bg-wuE" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="TCc-h8-gV3"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="phJ-8U-r40" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="691.5" y="1231"/>
+        </scene>
         <!--Item-->
         <scene sceneID="6mD-hE-Qha">
             <objects>
@@ -202,12 +193,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="pPB-qi-xqD" kind="relationship" relationship="rootViewController" id="P74-TB-Ofp"/>
+                        <segue destination="M5O-Bg-wuE" kind="relationship" relationship="rootViewController" id="d2S-vT-3jX"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WlN-bD-OOA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1259" y="1148"/>
+            <point key="canvasLocation" x="1252" y="1142"/>
         </scene>
     </scenes>
 </document>
