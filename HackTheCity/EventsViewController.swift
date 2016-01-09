@@ -15,7 +15,13 @@ class EventsViewController: UIViewController, UITableViewDelegate, UITableViewDa
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let event = eventObject(name: "Checkin", desc: "Check in at 6 Metrotech with your ID and collect the swag more stuff and text I’m fliing here for no reason haha haha haha haha haha", time: "8AM-9AM")
+        var event = eventObject(name: "Check-in", desc: "Check in at 6 Metrotech with your ID and collect the swag more stuff and text I’m fliing here for no reason haha haha haha haha haha", time: "8AM - 9AM")
+        eventObjects.append(event)
+        
+        event = eventObject(name: "Hacking Begins", desc: "Check in at 6 Metrotech with your ID and collect the swag more stuff and text I’m fliing here for no reason haha haha haha haha haha", time: "9AM - 10AM")
+        eventObjects.append(event)
+        
+        event = eventObject(name: "Nodejs workshop", desc: "Check in at 6 Metrotech with your ID and collect the swag more stuff and text I’m fliing here for no reason haha haha haha haha haha", time: "10AM - 11AM")
         eventObjects.append(event)
         
         // Do any additional setup after loading the view.
@@ -29,7 +35,7 @@ class EventsViewController: UIViewController, UITableViewDelegate, UITableViewDa
     // MARK: - TableView Data source methods
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        return 1
+        return eventObjects.count
     }
     
     // Row display. Implementers should *always* try to reuse cells by setting each cell's reuseIdentifier and querying for available reusable cells with dequeueReusableCellWithIdentifier:

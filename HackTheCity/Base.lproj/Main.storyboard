@@ -44,7 +44,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="49" id="g4t-eQ-Lzk"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="28"/>
+                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="23"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -60,7 +60,7 @@
                                                 <constraint firstItem="Akp-4z-S3a" firstAttribute="top" secondItem="2ur-dz-eFJ" secondAttribute="top" id="HUC-dQ-QfE"/>
                                                 <constraint firstItem="2ur-dz-eFJ" firstAttribute="leading" secondItem="FxY-Ty-pUZ" secondAttribute="leadingMargin" constant="28" id="Jwi-Zw-GOO"/>
                                                 <constraint firstItem="s6E-X5-qAz" firstAttribute="trailing" secondItem="Akp-4z-S3a" secondAttribute="trailing" id="OfJ-6M-XH2"/>
-                                                <constraint firstItem="Akp-4z-S3a" firstAttribute="baseline" secondItem="2ur-dz-eFJ" secondAttribute="firstBaseline" id="RGS-3h-ZUL"/>
+                                                <constraint firstItem="Akp-4z-S3a" firstAttribute="baseline" secondItem="2ur-dz-eFJ" secondAttribute="firstBaseline" constant="4.5" id="RGS-3h-ZUL"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="s6E-X5-qAz" secondAttribute="bottom" constant="-0.5" id="hTf-R1-JlC"/>
                                                 <constraint firstItem="Akp-4z-S3a" firstAttribute="leading" secondItem="2ur-dz-eFJ" secondAttribute="trailing" constant="8" symbolic="YES" id="mXi-j5-I5l"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="Akp-4z-S3a" secondAttribute="trailing" constant="27" id="suM-IV-jAH"/>

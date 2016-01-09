@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C11HackTheCity20EventsViewController", ""]
 provides-dynamic-lookup:
+- "tableView"
+- "tableView"
 - "viewDidLoad"
 - "didReceiveMemoryWarning"
-- "tableView"
-- "tableView"
 depends-top-level:
-- !private "StringLiteralType"
-- "UITableViewDelegate"
-- "NSIndexPath"
 - "UITableView"
 - "Int"
 - "EventsViewController"
-- "eventObject"
-- "UITableViewCell"
-- "Array"
-- "UIViewController"
-- "UITableViewDataSource"
+- "UITableViewDelegate"
 - !private "EventCell"
+- !private "StringLiteralType"
+- "UITableViewDataSource"
+- "UIViewController"
+- "eventObject"
+- "NSIndexPath"
+- "Array"
+- "UITableViewCell"
 depends-member:
 - ["PSs9AnyObject", "Array"]
 - !private ["PSs9AnyObject", "dequeueReusableCellWithIdentifier"]
@@ -59,6 +59,7 @@ depends-member:
 - !private ["Sa", "SubSequence"]
 - !private ["Sa", "_Element"]
 - !private ["Sa", "append"]
+- !private ["Sa", "count"]
 - !private ["Sa", "deinit"]
 - ["Sa", "init"]
 - !private ["Sa", "subscript"]
@@ -67,6 +68,7 @@ depends-member:
 - !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
 - !private ["PSs23ArrayLiteralConvertible", "_Element"]
 - !private ["PSs23ArrayLiteralConvertible", "append"]
+- !private ["PSs23ArrayLiteralConvertible", "count"]
 - ["PSs23ArrayLiteralConvertible", "init"]
 - !private ["PSs23ArrayLiteralConvertible", "subscript"]
 - !private ["VSs10ArraySlice", "Generator"]
@@ -112,6 +114,7 @@ depends-member:
 - !private ["PSs14CollectionType", "SubSequence"]
 - !private ["PSs14CollectionType", "_Element"]
 - !private ["PSs14CollectionType", "append"]
+- !private ["PSs14CollectionType", "count"]
 - ["PSs14CollectionType", "init"]
 - !private ["PSs14CollectionType", "subscript"]
 - !private ["PSs10Comparable", "Distance"]
@@ -121,6 +124,7 @@ depends-member:
 - !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
 - !private ["PSs28CustomDebugStringConvertible", "_Element"]
 - !private ["PSs28CustomDebugStringConvertible", "append"]
+- !private ["PSs28CustomDebugStringConvertible", "count"]
 - ["PSs28CustomDebugStringConvertible", "init"]
 - !private ["PSs28CustomDebugStringConvertible", "subscript"]
 - ["PSs23CustomStringConvertible", "Array"]
@@ -131,6 +135,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "SubSequence"]
 - !private ["PSs23CustomStringConvertible", "_Element"]
 - !private ["PSs23CustomStringConvertible", "append"]
+- !private ["PSs23CustomStringConvertible", "count"]
 - !private ["PSs23CustomStringConvertible", "dequeueReusableCellWithIdentifier"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
 - !private ["PSs23CustomStringConvertible", "eventDesc"]
@@ -265,6 +270,7 @@ depends-member:
 - !private ["PSs9Indexable", "SubSequence"]
 - !private ["PSs9Indexable", "_Element"]
 - !private ["PSs9Indexable", "append"]
+- !private ["PSs9Indexable", "count"]
 - ["PSs9Indexable", "init"]
 - !private ["PSs9Indexable", "subscript"]
 - !private ["VSs17IndexingGenerator", "Element"]
@@ -283,6 +289,7 @@ depends-member:
 - !private ["PSs21MutableCollectionType", "SubSequence"]
 - !private ["PSs21MutableCollectionType", "_Element"]
 - !private ["PSs21MutableCollectionType", "append"]
+- !private ["PSs21MutableCollectionType", "count"]
 - ["PSs21MutableCollectionType", "init"]
 - !private ["PSs21MutableCollectionType", "subscript"]
 - !private ["PSs16MutableIndexable", "Generator"]
@@ -290,6 +297,7 @@ depends-member:
 - !private ["PSs16MutableIndexable", "SubSequence"]
 - !private ["PSs16MutableIndexable", "_Element"]
 - !private ["PSs16MutableIndexable", "append"]
+- !private ["PSs16MutableIndexable", "count"]
 - ["PSs16MutableIndexable", "init"]
 - !private ["PSs16MutableIndexable", "subscript"]
 - !private ["PSs16MutableSliceable", "Generator"]
@@ -297,6 +305,7 @@ depends-member:
 - !private ["PSs16MutableSliceable", "SubSequence"]
 - !private ["PSs16MutableSliceable", "_Element"]
 - !private ["PSs16MutableSliceable", "append"]
+- !private ["PSs16MutableSliceable", "count"]
 - ["PSs16MutableSliceable", "init"]
 - !private ["PSs16MutableSliceable", "subscript"]
 - ["PSo8NSCoding", "Array"]
@@ -427,6 +436,7 @@ depends-member:
 - !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
 - !private ["PSs30RangeReplaceableCollectionType", "_Element"]
 - !private ["PSs30RangeReplaceableCollectionType", "append"]
+- !private ["PSs30RangeReplaceableCollectionType", "count"]
 - ["PSs30RangeReplaceableCollectionType", "init"]
 - !private ["PSs30RangeReplaceableCollectionType", "subscript"]
 - !private ["PSs12SequenceType", "Element"]
@@ -435,6 +445,7 @@ depends-member:
 - !private ["PSs12SequenceType", "SubSequence"]
 - !private ["PSs12SequenceType", "_Element"]
 - !private ["PSs12SequenceType", "append"]
+- !private ["PSs12SequenceType", "count"]
 - ["PSs12SequenceType", "init"]
 - !private ["PSs12SequenceType", "subscript"]
 - !private ["PSs17SignedIntegerType", "Distance"]
@@ -752,6 +763,7 @@ depends-member:
 - !private ["PSs10_ArrayType", "SubSequence"]
 - !private ["PSs10_ArrayType", "_Element"]
 - !private ["PSs10_ArrayType", "append"]
+- !private ["PSs10_ArrayType", "count"]
 - ["PSs10_ArrayType", "init"]
 - !private ["PSs10_ArrayType", "subscript"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
@@ -761,6 +773,7 @@ depends-member:
 - !private ["PSs24_DestructorSafeContainer", "SubSequence"]
 - !private ["PSs24_DestructorSafeContainer", "_Element"]
 - !private ["PSs24_DestructorSafeContainer", "append"]
+- !private ["PSs24_DestructorSafeContainer", "count"]
 - ["PSs24_DestructorSafeContainer", "init"]
 - !private ["PSs24_DestructorSafeContainer", "subscript"]
 - !private ["PSs14_Incrementable", "Distance"]
@@ -776,6 +789,7 @@ depends-member:
 - !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
 - !private ["PSs21_ObjectiveCBridgeable", "_Element"]
 - !private ["PSs21_ObjectiveCBridgeable", "append"]
+- !private ["PSs21_ObjectiveCBridgeable", "count"]
 - ["PSs21_ObjectiveCBridgeable", "init"]
 - !private ["PSs21_ObjectiveCBridgeable", "subscript"]
 - !private ["PSs22_RandomAccessAmbiguity", "Distance"]
@@ -787,6 +801,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "SubSequence"]
 - !private ["PSs12_Reflectable", "_Element"]
 - !private ["PSs12_Reflectable", "append"]
+- !private ["PSs12_Reflectable", "count"]
 - !private ["PSs12_Reflectable", "dequeueReusableCellWithIdentifier"]
 - !private ["PSs12_Reflectable", "eventDesc"]
 - !private ["PSs12_Reflectable", "eventName"]
