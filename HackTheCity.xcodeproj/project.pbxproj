@@ -14,6 +14,10 @@
 		C2066DDE1BC570DB00108981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2066DDC1BC570DB00108981 /* LaunchScreen.storyboard */; };
 		C2066DE91BC570DC00108981 /* HackTheCityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2066DE81BC570DC00108981 /* HackTheCityTests.swift */; };
 		C2066DF41BC570DC00108981 /* HackTheCityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2066DF31BC570DC00108981 /* HackTheCityUITests.swift */; };
+		C2FDA1C01C41ADE6000A0024 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDA1BF1C41ADE6000A0024 /* EventsViewController.swift */; };
+		C2FDA1C21C41AE53000A0024 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDA1C11C41AE53000A0024 /* MapViewController.swift */; };
+		C2FDA1C41C41AE5D000A0024 /* MentorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDA1C31C41AE5D000A0024 /* MentorsViewController.swift */; };
+		C2FDA1C61C41AECA000A0024 /* CustomNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDA1C51C41AECA000A0024 /* CustomNav.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		C2066DEF1BC570DC00108981 /* HackTheCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackTheCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2066DF31BC570DC00108981 /* HackTheCityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackTheCityUITests.swift; sourceTree = "<group>"; };
 		C2066DF51BC570DC00108981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FDA1BF1C41ADE6000A0024 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		C2FDA1C11C41AE53000A0024 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C2FDA1C31C41AE5D000A0024 /* MentorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentorsViewController.swift; sourceTree = "<group>"; };
+		C2FDA1C51C41AECA000A0024 /* CustomNav.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNav.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				C2066DD31BC570DB00108981 /* AppDelegate.swift */,
 				C2066DD51BC570DB00108981 /* ViewController.swift */,
+				C2FDA1C11C41AE53000A0024 /* MapViewController.swift */,
+				C2FDA1C31C41AE5D000A0024 /* MentorsViewController.swift */,
+				C2FDA1BF1C41ADE6000A0024 /* EventsViewController.swift */,
+				C2FDA1C51C41AECA000A0024 /* CustomNav.swift */,
 				C2066DD71BC570DB00108981 /* Main.storyboard */,
 				C2066DDA1BC570DB00108981 /* Assets.xcassets */,
 				C2066DDC1BC570DB00108981 /* LaunchScreen.storyboard */,
@@ -257,6 +269,10 @@
 			files = (
 				C2066DD61BC570DB00108981 /* ViewController.swift in Sources */,
 				C2066DD41BC570DB00108981 /* AppDelegate.swift in Sources */,
+				C2FDA1C61C41AECA000A0024 /* CustomNav.swift in Sources */,
+				C2FDA1C01C41ADE6000A0024 /* EventsViewController.swift in Sources */,
+				C2FDA1C41C41AE5D000A0024 /* MentorsViewController.swift in Sources */,
+				C2FDA1C21C41AE53000A0024 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +497,7 @@
 				C2066DFA1BC570DC00108981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2066DFB1BC570DC00108981 /* Build configuration list for PBXNativeTarget "HackTheCityTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +506,7 @@
 				C2066DFD1BC570DC00108981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2066DFE1BC570DC00108981 /* Build configuration list for PBXNativeTarget "HackTheCityUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +515,7 @@
 				C2066E001BC570DC00108981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
