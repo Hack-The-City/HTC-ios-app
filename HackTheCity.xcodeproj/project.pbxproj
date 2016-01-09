@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1BCCF3D1C41C558003C82EB /* Mentor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1BCCF3C1C41C558003C82EB /* Mentor.storyboard */; };
 		C2066DD41BC570DB00108981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2066DD31BC570DB00108981 /* AppDelegate.swift */; };
 		C2066DD61BC570DB00108981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2066DD51BC570DB00108981 /* ViewController.swift */; };
 		C2066DD91BC570DB00108981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2066DD71BC570DB00108981 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B1BCCF3C1C41C558003C82EB /* Mentor.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mentor.storyboard; sourceTree = "<group>"; };
 		C2066DD01BC570DB00108981 /* HackTheCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackTheCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2066DD31BC570DB00108981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2066DD51BC570DB00108981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				C2066DDA1BC570DB00108981 /* Assets.xcassets */,
 				C2066DDC1BC570DB00108981 /* LaunchScreen.storyboard */,
 				C2066DDF1BC570DB00108981 /* Info.plist */,
+				B1BCCF3C1C41C558003C82EB /* Mentor.storyboard */,
 			);
 			path = HackTheCity;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2066DDE1BC570DB00108981 /* LaunchScreen.storyboard in Resources */,
+				B1BCCF3D1C41C558003C82EB /* Mentor.storyboard in Resources */,
 				C2066DDB1BC570DB00108981 /* Assets.xcassets in Resources */,
 				C2066DD91BC570DB00108981 /* Main.storyboard in Resources */,
 			);

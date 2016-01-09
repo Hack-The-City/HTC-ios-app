@@ -8,17 +8,25 @@
 
 import UIKit
 
-class MentorsViewController: UIViewController {
-
-    var dateTime = "10Hrs 31Mins"
+class MentorsViewController: UIViewController, UITableViewDataSource {
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1;
+        
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5;
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = UITableViewCell()
+        cell.textLabel!.text = "hello"
+        return cell;
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // load date time from db here
-        
-        // set the title to the datetime
-        self.navigationItem.title = dateTime
 
         // Do any additional setup after loading the view.
     }
@@ -27,7 +35,7 @@ class MentorsViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+        
 
     /*
     // MARK: - Navigation
