@@ -18,6 +18,8 @@
 		C2FDA1C21C41AE53000A0024 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDA1C11C41AE53000A0024 /* MapViewController.swift */; };
 		C2FDA1C41C41AE5D000A0024 /* MentorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDA1C31C41AE5D000A0024 /* MentorsViewController.swift */; };
 		C2FDA1C61C41AECA000A0024 /* CustomNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDA1C51C41AECA000A0024 /* CustomNav.swift */; };
+		C2FDA1CA1C41B115000A0024 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDA1C91C41B115000A0024 /* EventCell.swift */; };
+		C2FDA1CC1C41B380000A0024 /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDA1CB1C41B380000A0024 /* Objects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		C2FDA1C11C41AE53000A0024 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C2FDA1C31C41AE5D000A0024 /* MentorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentorsViewController.swift; sourceTree = "<group>"; };
 		C2FDA1C51C41AECA000A0024 /* CustomNav.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNav.swift; sourceTree = "<group>"; };
+		C2FDA1C91C41B115000A0024 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		C2FDA1CB1C41B380000A0024 /* Objects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +114,9 @@
 				C2FDA1C11C41AE53000A0024 /* MapViewController.swift */,
 				C2FDA1C31C41AE5D000A0024 /* MentorsViewController.swift */,
 				C2FDA1BF1C41ADE6000A0024 /* EventsViewController.swift */,
+				C2FDA1CB1C41B380000A0024 /* Objects.swift */,
 				C2FDA1C51C41AECA000A0024 /* CustomNav.swift */,
+				C2FDA1C91C41B115000A0024 /* EventCell.swift */,
 				C2066DD71BC570DB00108981 /* Main.storyboard */,
 				C2066DDA1BC570DB00108981 /* Assets.xcassets */,
 				C2066DDC1BC570DB00108981 /* LaunchScreen.storyboard */,
@@ -269,10 +275,12 @@
 			files = (
 				C2066DD61BC570DB00108981 /* ViewController.swift in Sources */,
 				C2066DD41BC570DB00108981 /* AppDelegate.swift in Sources */,
+				C2FDA1CC1C41B380000A0024 /* Objects.swift in Sources */,
 				C2FDA1C61C41AECA000A0024 /* CustomNav.swift in Sources */,
 				C2FDA1C01C41ADE6000A0024 /* EventsViewController.swift in Sources */,
 				C2FDA1C41C41AE5D000A0024 /* MentorsViewController.swift in Sources */,
 				C2FDA1C21C41AE53000A0024 /* MapViewController.swift in Sources */,
+				C2FDA1CA1C41B115000A0024 /* EventCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

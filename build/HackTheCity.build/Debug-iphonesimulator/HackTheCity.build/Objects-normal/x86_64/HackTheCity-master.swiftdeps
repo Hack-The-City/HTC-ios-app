@@ -1,10 +1,12 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "cd85af0ef5f03f92cad37b419692eb01"
-build_time: [505689101, 122539000]
+build_time: [505691493, 588207000]
 inputs:
   "/Users/Vidyadhar/Desktop/Github/HTC-ios-app/HackTheCity/MapViewController.swift": [505688914, 0]
-  "/Users/Vidyadhar/Desktop/Github/HTC-ios-app/HackTheCity/CustomNav.swift": [505689085, 0]
-  "/Users/Vidyadhar/Desktop/Github/HTC-ios-app/HackTheCity/ViewController.swift": [497546715, 0]
-  "/Users/Vidyadhar/Desktop/Github/HTC-ios-app/HackTheCity/MentorsViewController.swift": [505688925, 0]
-  "/Users/Vidyadhar/Desktop/Github/HTC-ios-app/HackTheCity/EventsViewController.swift": [505688805, 0]
   "/Users/Vidyadhar/Desktop/Github/HTC-ios-app/HackTheCity/AppDelegate.swift": [497546715, 0]
+  "/Users/Vidyadhar/Desktop/Github/HTC-ios-app/HackTheCity/EventsViewController.swift": [505691487, 0]
+  "/Users/Vidyadhar/Desktop/Github/HTC-ios-app/HackTheCity/CustomNav.swift": [505689085, 0]
+  "/Users/Vidyadhar/Desktop/Github/HTC-ios-app/HackTheCity/EventCell.swift": [505691407, 0]
+  "/Users/Vidyadhar/Desktop/Github/HTC-ios-app/HackTheCity/MentorsViewController.swift": [505688925, 0]
+  "/Users/Vidyadhar/Desktop/Github/HTC-ios-app/HackTheCity/ViewController.swift": [497546715, 0]
+  "/Users/Vidyadhar/Desktop/Github/HTC-ios-app/HackTheCity/Objects.swift": [505690454, 0]
