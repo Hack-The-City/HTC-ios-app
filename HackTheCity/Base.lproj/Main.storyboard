@@ -171,11 +171,11 @@
             </objects>
             <point key="canvasLocation" x="1252" y="-319"/>
         </scene>
-        <!--Item-->
+        <!--Map-->
         <scene sceneID="WVm-w3-Vre">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Q3a-AP-HWK" customClass="CustomNavBar" customModule="HackTheCity" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="q3k-4E-9gx"/>
+                    <tabBarItem key="tabBarItem" title="Map" id="q3k-4E-9gx"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mvs-uC-GDt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
