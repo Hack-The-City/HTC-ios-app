@@ -10,8 +10,15 @@ import UIKit
 
 class MentorsViewController: UIViewController {
 
+    var dateTime = "10Hrs 31Mins"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // load date time from db here
+        
+        // set the title to the datetime
+        self.title = dateTime
 
         // Do any additional setup after loading the view.
     }

@@ -6,25 +6,27 @@ provides-nominal:
 provides-member:
 - ["C11HackTheCity20EventsViewController", ""]
 provides-dynamic-lookup:
-- "tableView"
-- "tableView"
-- "viewDidLoad"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
+- "tableView"
+- "tableView"
+- "dateTime"
 depends-top-level:
-- "UITableView"
-- "Int"
-- "EventsViewController"
-- "UITableViewDelegate"
-- !private "EventCell"
-- !private "StringLiteralType"
-- "UITableViewDataSource"
+- "StringLiteralType"
 - "UIViewController"
-- "eventObject"
-- "NSIndexPath"
 - "Array"
+- "UITableViewDelegate"
+- "Int"
 - "UITableViewCell"
+- "UITableViewDataSource"
+- "NSIndexPath"
+- "EventsViewController"
+- "eventObject"
+- !private "EventCell"
+- "UITableView"
 depends-member:
 - ["PSs9AnyObject", "Array"]
+- ["PSs9AnyObject", "dateTime"]
 - !private ["PSs9AnyObject", "dequeueReusableCellWithIdentifier"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - !private ["PSs9AnyObject", "eventDesc"]
@@ -51,6 +53,7 @@ depends-member:
 - ["PSs9AnyObject", "sectionIndexTitlesForTableView"]
 - ["PSs9AnyObject", "tableView"]
 - !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "title"]
 - ["PSs9AnyObject", "viewDidLoad"]
 - ["PSs9AnyObject", "viewForZoomingInScrollView"]
 - ["PSs9AnyObject", ""]
@@ -80,6 +83,7 @@ depends-member:
 - ["PSs11CVarArgType", "Array"]
 - !private ["PSs11CVarArgType", "Distance"]
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- ["PSs11CVarArgType", "dateTime"]
 - !private ["PSs11CVarArgType", "dequeueReusableCellWithIdentifier"]
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
 - !private ["PSs11CVarArgType", "eventDesc"]
@@ -106,6 +110,7 @@ depends-member:
 - ["PSs11CVarArgType", "sectionIndexTitlesForTableView"]
 - ["PSs11CVarArgType", "tableView"]
 - !private ["PSs11CVarArgType", "text"]
+- !private ["PSs11CVarArgType", "title"]
 - ["PSs11CVarArgType", "viewDidLoad"]
 - ["PSs11CVarArgType", "viewForZoomingInScrollView"]
 - ["PSs11CVarArgType", ""]
@@ -136,6 +141,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "_Element"]
 - !private ["PSs23CustomStringConvertible", "append"]
 - !private ["PSs23CustomStringConvertible", "count"]
+- ["PSs23CustomStringConvertible", "dateTime"]
 - !private ["PSs23CustomStringConvertible", "dequeueReusableCellWithIdentifier"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
 - !private ["PSs23CustomStringConvertible", "eventDesc"]
@@ -163,12 +169,14 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "subscript"]
 - ["PSs23CustomStringConvertible", "tableView"]
 - !private ["PSs23CustomStringConvertible", "text"]
+- !private ["PSs23CustomStringConvertible", "title"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
 - ["PSs23CustomStringConvertible", "viewForZoomingInScrollView"]
 - ["PSs23CustomStringConvertible", ""]
 - ["PSs9Equatable", "Array"]
 - !private ["PSs9Equatable", "Distance"]
 - !private ["PSs9Equatable", "IntegerLiteralType"]
+- ["PSs9Equatable", "dateTime"]
 - !private ["PSs9Equatable", "dequeueReusableCellWithIdentifier"]
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
 - !private ["PSs9Equatable", "eventDesc"]
@@ -195,6 +203,7 @@ depends-member:
 - ["PSs9Equatable", "sectionIndexTitlesForTableView"]
 - ["PSs9Equatable", "tableView"]
 - !private ["PSs9Equatable", "text"]
+- !private ["PSs9Equatable", "title"]
 - ["PSs9Equatable", "viewDidLoad"]
 - ["PSs9Equatable", "viewForZoomingInScrollView"]
 - ["PSs9Equatable", ""]
@@ -207,6 +216,7 @@ depends-member:
 - ["C11HackTheCity20EventsViewController", "NSIndexPath"]
 - ["C11HackTheCity20EventsViewController", "UITableView"]
 - ["C11HackTheCity20EventsViewController", "UITableViewCell"]
+- ["C11HackTheCity20EventsViewController", "dateTime"]
 - ["C11HackTheCity20EventsViewController", "deinit"]
 - ["C11HackTheCity20EventsViewController", "didReceiveMemoryWarning"]
 - ["C11HackTheCity20EventsViewController", "eventObject"]
@@ -228,6 +238,7 @@ depends-member:
 - ["C11HackTheCity20EventsViewController", "scrollViewWillEndDragging"]
 - ["C11HackTheCity20EventsViewController", "sectionIndexTitlesForTableView"]
 - ["C11HackTheCity20EventsViewController", "tableView"]
+- !private ["C11HackTheCity20EventsViewController", "title"]
 - ["C11HackTheCity20EventsViewController", "viewDidLoad"]
 - ["C11HackTheCity20EventsViewController", "viewForZoomingInScrollView"]
 - !private ["PSs16ForwardIndexType", "Distance"]
@@ -236,6 +247,7 @@ depends-member:
 - ["PSs8Hashable", "Array"]
 - !private ["PSs8Hashable", "Distance"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
+- ["PSs8Hashable", "dateTime"]
 - !private ["PSs8Hashable", "dequeueReusableCellWithIdentifier"]
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
 - !private ["PSs8Hashable", "eventDesc"]
@@ -262,6 +274,7 @@ depends-member:
 - ["PSs8Hashable", "sectionIndexTitlesForTableView"]
 - ["PSs8Hashable", "tableView"]
 - !private ["PSs8Hashable", "text"]
+- !private ["PSs8Hashable", "title"]
 - ["PSs8Hashable", "viewDidLoad"]
 - ["PSs8Hashable", "viewForZoomingInScrollView"]
 - ["PSs8Hashable", ""]
@@ -309,6 +322,7 @@ depends-member:
 - ["PSs16MutableSliceable", "init"]
 - !private ["PSs16MutableSliceable", "subscript"]
 - ["PSo8NSCoding", "Array"]
+- ["PSo8NSCoding", "dateTime"]
 - !private ["PSo8NSCoding", "dequeueReusableCellWithIdentifier"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - !private ["PSo8NSCoding", "eventDesc"]
@@ -335,11 +349,13 @@ depends-member:
 - ["PSo8NSCoding", "sectionIndexTitlesForTableView"]
 - ["PSo8NSCoding", "tableView"]
 - !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "title"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", "viewForZoomingInScrollView"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "row"]
 - ["PSo26NSExtensionRequestHandling", "Array"]
+- ["PSo26NSExtensionRequestHandling", "dateTime"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - !private ["PSo26NSExtensionRequestHandling", "eventObject"]
 - ["PSo26NSExtensionRequestHandling", "eventObjects"]
@@ -360,6 +376,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "scrollViewWillEndDragging"]
 - ["PSo26NSExtensionRequestHandling", "sectionIndexTitlesForTableView"]
 - ["PSo26NSExtensionRequestHandling", "tableView"]
+- !private ["PSo26NSExtensionRequestHandling", "title"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", "viewForZoomingInScrollView"]
 - ["PSo26NSExtensionRequestHandling", ""]
@@ -370,6 +387,7 @@ depends-member:
 - ["CSo8NSObject", "NSIndexPath"]
 - ["CSo8NSObject", "UITableView"]
 - ["CSo8NSObject", "UITableViewCell"]
+- ["CSo8NSObject", "dateTime"]
 - !private ["CSo8NSObject", "dequeueReusableCellWithIdentifier"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - !private ["CSo8NSObject", "eventDesc"]
@@ -396,9 +414,11 @@ depends-member:
 - ["CSo8NSObject", "sectionIndexTitlesForTableView"]
 - ["CSo8NSObject", "tableView"]
 - !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "title"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["CSo8NSObject", "viewForZoomingInScrollView"]
 - ["PSo16NSObjectProtocol", "Array"]
+- ["PSo16NSObjectProtocol", "dateTime"]
 - !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithIdentifier"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - !private ["PSo16NSObjectProtocol", "eventDesc"]
@@ -425,6 +445,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "sectionIndexTitlesForTableView"]
 - ["PSo16NSObjectProtocol", "tableView"]
 - !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "title"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "viewForZoomingInScrollView"]
 - ["PSo16NSObjectProtocol", ""]
@@ -469,6 +490,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "eventTime"]
 - !private ["PSo12UIAppearance", "text"]
 - ["PSo21UIAppearanceContainer", "Array"]
+- ["PSo21UIAppearanceContainer", "dateTime"]
 - !private ["PSo21UIAppearanceContainer", "dequeueReusableCellWithIdentifier"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - !private ["PSo21UIAppearanceContainer", "eventDesc"]
@@ -494,10 +516,12 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "sectionIndexTitlesForTableView"]
 - ["PSo21UIAppearanceContainer", "tableView"]
 - !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "title"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", "viewForZoomingInScrollView"]
 - ["PSo21UIAppearanceContainer", ""]
 - ["PSo18UIContentContainer", "Array"]
+- ["PSo18UIContentContainer", "dateTime"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - !private ["PSo18UIContentContainer", "eventObject"]
 - ["PSo18UIContentContainer", "eventObjects"]
@@ -518,6 +542,7 @@ depends-member:
 - ["PSo18UIContentContainer", "scrollViewWillEndDragging"]
 - ["PSo18UIContentContainer", "sectionIndexTitlesForTableView"]
 - ["PSo18UIContentContainer", "tableView"]
+- !private ["PSo18UIContentContainer", "title"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", "viewForZoomingInScrollView"]
 - ["PSo18UIContentContainer", ""]
@@ -532,6 +557,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "eventTime"]
 - !private ["PSo13UIDynamicItem", "text"]
 - ["PSo18UIFocusEnvironment", "Array"]
+- ["PSo18UIFocusEnvironment", "dateTime"]
 - !private ["PSo18UIFocusEnvironment", "dequeueReusableCellWithIdentifier"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - !private ["PSo18UIFocusEnvironment", "eventDesc"]
@@ -557,6 +583,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "sectionIndexTitlesForTableView"]
 - ["PSo18UIFocusEnvironment", "tableView"]
 - !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "title"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", "viewForZoomingInScrollView"]
 - ["PSo18UIFocusEnvironment", ""]
@@ -571,6 +598,7 @@ depends-member:
 - ["CSo11UIResponder", "NSIndexPath"]
 - ["CSo11UIResponder", "UITableView"]
 - ["CSo11UIResponder", "UITableViewCell"]
+- ["CSo11UIResponder", "dateTime"]
 - !private ["CSo11UIResponder", "dequeueReusableCellWithIdentifier"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
 - !private ["CSo11UIResponder", "eventDesc"]
@@ -596,11 +624,13 @@ depends-member:
 - ["CSo11UIResponder", "sectionIndexTitlesForTableView"]
 - ["CSo11UIResponder", "tableView"]
 - !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "title"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - ["CSo11UIResponder", "viewForZoomingInScrollView"]
 - !private ["CSo12UIScrollView", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo12UIScrollView", "text"]
 - ["PSo20UIScrollViewDelegate", "Array"]
+- !private ["PSo20UIScrollViewDelegate", "dateTime"]
 - !private ["PSo20UIScrollViewDelegate", "eventObject"]
 - !private ["PSo20UIScrollViewDelegate", "eventObjects"]
 - ["PSo20UIScrollViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
@@ -619,9 +649,11 @@ depends-member:
 - ["PSo20UIScrollViewDelegate", "scrollViewWillEndDragging"]
 - ["PSo20UIScrollViewDelegate", "sectionIndexTitlesForTableView"]
 - ["PSo20UIScrollViewDelegate", "tableView"]
+- !private ["PSo20UIScrollViewDelegate", "title"]
 - ["PSo20UIScrollViewDelegate", "viewForZoomingInScrollView"]
 - ["PSo20UIScrollViewDelegate", ""]
 - ["PSo16UIStateRestoring", "Array"]
+- ["PSo16UIStateRestoring", "dateTime"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - !private ["PSo16UIStateRestoring", "eventObject"]
 - ["PSo16UIStateRestoring", "eventObjects"]
@@ -642,6 +674,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "scrollViewWillEndDragging"]
 - ["PSo16UIStateRestoring", "sectionIndexTitlesForTableView"]
 - ["PSo16UIStateRestoring", "tableView"]
+- !private ["PSo16UIStateRestoring", "title"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", "viewForZoomingInScrollView"]
 - ["PSo16UIStateRestoring", ""]
@@ -651,6 +684,7 @@ depends-member:
 - !private ["CSo15UITableViewCell", "eventName"]
 - !private ["CSo15UITableViewCell", "eventTime"]
 - ["PSo21UITableViewDataSource", "Array"]
+- !private ["PSo21UITableViewDataSource", "dateTime"]
 - !private ["PSo21UITableViewDataSource", "eventObject"]
 - !private ["PSo21UITableViewDataSource", "eventObjects"]
 - ["PSo21UITableViewDataSource", "indexPathForPreferredFocusedViewInTableView"]
@@ -669,9 +703,11 @@ depends-member:
 - ["PSo21UITableViewDataSource", "scrollViewWillEndDragging"]
 - ["PSo21UITableViewDataSource", "sectionIndexTitlesForTableView"]
 - ["PSo21UITableViewDataSource", "tableView"]
+- !private ["PSo21UITableViewDataSource", "title"]
 - ["PSo21UITableViewDataSource", "viewForZoomingInScrollView"]
 - ["PSo21UITableViewDataSource", ""]
 - ["PSo19UITableViewDelegate", "Array"]
+- !private ["PSo19UITableViewDelegate", "dateTime"]
 - !private ["PSo19UITableViewDelegate", "eventObject"]
 - !private ["PSo19UITableViewDelegate", "eventObjects"]
 - ["PSo19UITableViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
@@ -690,12 +726,14 @@ depends-member:
 - ["PSo19UITableViewDelegate", "scrollViewWillEndDragging"]
 - ["PSo19UITableViewDelegate", "sectionIndexTitlesForTableView"]
 - ["PSo19UITableViewDelegate", "tableView"]
+- !private ["PSo19UITableViewDelegate", "title"]
 - ["PSo19UITableViewDelegate", "viewForZoomingInScrollView"]
 - ["PSo19UITableViewDelegate", ""]
 - !private ["PSo11UITextInput", "text"]
 - !private ["PSo17UITextInputTraits", "text"]
 - !private ["CSo10UITextView", "text"]
 - ["PSo18UITraitEnvironment", "Array"]
+- ["PSo18UITraitEnvironment", "dateTime"]
 - !private ["PSo18UITraitEnvironment", "dequeueReusableCellWithIdentifier"]
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - !private ["PSo18UITraitEnvironment", "eventDesc"]
@@ -721,6 +759,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "sectionIndexTitlesForTableView"]
 - ["PSo18UITraitEnvironment", "tableView"]
 - !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "title"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", "viewForZoomingInScrollView"]
 - ["PSo18UITraitEnvironment", ""]
@@ -735,6 +774,7 @@ depends-member:
 - ["CSo16UIViewController", "NSIndexPath"]
 - ["CSo16UIViewController", "UITableView"]
 - ["CSo16UIViewController", "UITableViewCell"]
+- ["CSo16UIViewController", "dateTime"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "eventObject"]
 - ["CSo16UIViewController", "eventObjects"]
@@ -755,6 +795,7 @@ depends-member:
 - ["CSo16UIViewController", "scrollViewWillEndDragging"]
 - ["CSo16UIViewController", "sectionIndexTitlesForTableView"]
 - ["CSo16UIViewController", "tableView"]
+- !private ["CSo16UIViewController", "title"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", "viewForZoomingInScrollView"]
 - ["CSo16UIViewController", ""]
@@ -906,4 +947,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "73c716f36229ab6986157a8c2a55dfb0"
+interface-hash: "c37a430587ca567e3452f5b52867df4d"

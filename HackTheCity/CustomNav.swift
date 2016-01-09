@@ -9,6 +9,16 @@
 import UIKit
 
 class CustomNavBar: UINavigationController {
+    
+    let navBar = UINavigationBar()
+    var dateTime = "10Hrs 31Mins"
+    
+    override func viewDidLoad() {
+        
+        // update the date and time string here
+        
+        // set the date time string as the title here
+    }
 
     /*
     // Only override drawRect: if you perform custom drawing.

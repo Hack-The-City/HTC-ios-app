@@ -107,12 +107,16 @@ SWIFT_CLASS("_TtC11HackTheCity11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UINavigationBar;
 @class UIViewController;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC11HackTheCity12CustomNavBar")
 @interface CustomNavBar : UINavigationController
+@property (nonatomic, readonly, strong) UINavigationBar * __nonnull navBar;
+@property (nonatomic, copy) NSString * __nonnull dateTime;
+- (void)viewDidLoad;
 - (nonnull instancetype)initWithNavigationBarClass:(Class __nullable)navigationBarClass toolbarClass:(Class __nullable)toolbarClass OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithRootViewController:(UIViewController * __nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -138,6 +142,7 @@ SWIFT_CLASS("_TtC11HackTheCity9EventCell")
 
 SWIFT_CLASS("_TtC11HackTheCity20EventsViewController")
 @interface EventsViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, copy) NSString * __nonnull dateTime;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;
@@ -158,6 +163,7 @@ SWIFT_CLASS("_TtC11HackTheCity17MapViewController")
 
 SWIFT_CLASS("_TtC11HackTheCity21MentorsViewController")
 @interface MentorsViewController : UIViewController
+@property (nonatomic, copy) NSString * __nonnull dateTime;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
