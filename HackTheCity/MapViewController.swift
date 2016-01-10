@@ -12,12 +12,13 @@ import MapKit
 class MapViewController: UIViewController {
 
     var dateTime = "10Hrs 31Mins"
-    let initialLocation = CLLocation(latitude: 40.6940741, longitude: -73.9891265)
-    let regionRadius: CLLocationDistance = 500
+    let initialLocation = CLLocation(latitude: 40.694201, longitude: -73.986477705)
+    let regionRadius: CLLocationDistance = 100
+    
+    //40.694202,-73.986477718
     
     @IBOutlet weak var mapView: MKMapView!
     
-    //40.6940741,-73.9891265,17
     
     override func viewDidLoad() {
         super.viewDidLoad()
