@@ -50,7 +50,9 @@ class EventsViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
         let cell = tableView.dequeueReusableCellWithIdentifier("eventcell", forIndexPath: indexPath) as! EventCell
         cell.eventName.text = eventObjects[indexPath.row].eventName
-        cell.eventDesc.text = eventObjects[indexPath.row].eventDesc
+        cell.eventDescription.text = eventObjects[indexPath.row].eventDesc
+        cell.eventDescription!.numberOfLines = 0
+        cell.eventDescription!.lineBreakMode = NSLineBreakMode.ByWordWrapping
         cell.eventTime.text = eventObjects[indexPath.row].dateTime
         return cell
     }

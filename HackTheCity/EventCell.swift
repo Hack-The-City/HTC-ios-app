@@ -12,7 +12,7 @@ class EventCell: UITableViewCell {
     
     @IBOutlet weak var eventName: UILabel!
     @IBOutlet weak var eventTime: UILabel!
-    @IBOutlet weak var eventDesc: UITextView!
+    @IBOutlet weak var eventDescription: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()

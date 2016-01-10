@@ -121,13 +121,12 @@ SWIFT_CLASS("_TtC11HackTheCity12CustomNavBar")
 @end
 
 @class UILabel;
-@class UITextView;
 
 SWIFT_CLASS("_TtC11HackTheCity9EventCell")
 @interface EventCell : UITableViewCell
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified eventName;
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified eventTime;
-@property (nonatomic, weak) IBOutlet UITextView * __null_unspecified eventDesc;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified eventDescription;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;

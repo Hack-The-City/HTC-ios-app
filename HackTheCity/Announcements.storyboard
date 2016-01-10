@@ -27,7 +27,7 @@
                                         <rect key="frame" x="0.0" y="28" width="600" height="186"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ecs-6Q-MMe" id="ixc-Jt-s7a">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="185.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="186"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FW9-zg-43R">
@@ -48,28 +48,28 @@
                                                     <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="asdasdasd" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Hi-zL-A8g">
-                                                    <rect key="frame" x="36" y="46" width="529" height="132"/>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
-                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                </textView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEo-tQ-IQd">
+                                                    <rect key="frame" x="36" y="62" width="529" height="116"/>
+                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="19"/>
+                                                    <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="2Hi-zL-A8g" firstAttribute="trailing" secondItem="FW9-zg-43R" secondAttribute="trailing" id="2RQ-TX-zhv"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="2Hi-zL-A8g" secondAttribute="bottom" constant="-0.5" id="5IC-nz-ZMP"/>
-                                                <constraint firstItem="2Hi-zL-A8g" firstAttribute="leading" secondItem="B76-Qk-Lao" secondAttribute="leading" id="AvU-Gm-JFX"/>
                                                 <constraint firstItem="FW9-zg-43R" firstAttribute="leading" secondItem="B76-Qk-Lao" secondAttribute="trailing" constant="8" symbolic="YES" id="Mac-0p-xMg"/>
                                                 <constraint firstItem="B76-Qk-Lao" firstAttribute="leading" secondItem="ixc-Jt-s7a" secondAttribute="leadingMargin" constant="28" id="Rd1-VP-06F"/>
-                                                <constraint firstItem="2Hi-zL-A8g" firstAttribute="top" secondItem="B76-Qk-Lao" secondAttribute="bottom" constant="8" id="Uze-S9-5Sh"/>
                                                 <constraint firstItem="FW9-zg-43R" firstAttribute="top" secondItem="B76-Qk-Lao" secondAttribute="top" id="XP1-pS-Ukl"/>
                                                 <constraint firstItem="FW9-zg-43R" firstAttribute="baseline" secondItem="B76-Qk-Lao" secondAttribute="firstBaseline" constant="9" id="dYI-83-3Pr"/>
+                                                <constraint firstItem="QEo-tQ-IQd" firstAttribute="top" secondItem="B76-Qk-Lao" secondAttribute="bottom" constant="24" id="gdd-eI-DcV"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="FW9-zg-43R" secondAttribute="trailing" constant="27" id="h8L-Py-VJ1"/>
+                                                <constraint firstItem="QEo-tQ-IQd" firstAttribute="leading" secondItem="B76-Qk-Lao" secondAttribute="leading" id="ivC-2W-B0y"/>
                                                 <constraint firstItem="FW9-zg-43R" firstAttribute="top" secondItem="ixc-Jt-s7a" secondAttribute="topMargin" id="raF-ik-qTN"/>
+                                                <constraint firstItem="QEo-tQ-IQd" firstAttribute="trailing" secondItem="FW9-zg-43R" secondAttribute="trailing" id="sRV-4X-4MA"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="QEo-tQ-IQd" secondAttribute="bottom" id="uph-6b-vOC"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="eventDesc" destination="2Hi-zL-A8g" id="0nI-0W-CrY"/>
+                                            <outlet property="eventDescription" destination="QEo-tQ-IQd" id="0yc-XR-Civ"/>
                                             <outlet property="eventName" destination="B76-Qk-Lao" id="S5W-u5-hJB"/>
                                             <outlet property="eventTime" destination="FW9-zg-43R" id="EXu-qY-wYX"/>
                                         </connections>
