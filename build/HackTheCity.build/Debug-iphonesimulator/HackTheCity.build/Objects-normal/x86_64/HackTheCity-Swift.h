@@ -173,9 +173,24 @@ SWIFT_CLASS("_TtC11HackTheCity21MentorsViewController")
 
 SWIFT_CLASS("_TtC11HackTheCity12ScheduleCell")
 @interface ScheduleCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified eventName;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified eventTime;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11HackTheCity22ScheduleViewController")
+@interface ScheduleViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, copy) NSString * __nonnull dateTime;
+@property (nonatomic, weak) IBOutlet UITableView * __null_unspecified tableView;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * __nonnull)tableView:(UITableView * __nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 

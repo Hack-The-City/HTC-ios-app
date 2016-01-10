@@ -14,21 +14,21 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
+                        <segue destination="9xV-OM-oQ7" kind="relationship" relationship="viewControllers" id="BAU-Rw-5mh"/>
                         <segue destination="Q3a-AP-HWK" kind="relationship" relationship="viewControllers" id="Xpk-HR-YNr"/>
                         <segue destination="6Xk-WZ-49z" kind="relationship" relationship="viewControllers" id="gGB-Q4-Raa"/>
                         <segue destination="7nO-6n-OfJ" kind="relationship" relationship="viewControllers" id="Qmj-qq-VSn"/>
-                        <segue destination="9xV-OM-oQ7" kind="relationship" relationship="viewControllers" id="BAU-Rw-5mh"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mQA-ks-ady" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="440" y="387"/>
         </scene>
-        <!--Schedule Feed-->
+        <!--Announcements-->
         <scene sceneID="qAP-eD-Jfq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Xk-WZ-49z" customClass="CustomNavBar" customModule="HackTheCity" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Schedule Feed" id="Uhd-Zt-mYU"/>
+                    <tabBarItem key="tabBarItem" title="Announcements" id="Uhd-Zt-mYU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="pbc-PE-bKk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -92,11 +92,11 @@
             </objects>
             <point key="canvasLocation" x="1827" y="1142"/>
         </scene>
-        <!--Item-->
+        <!--Mentors-->
         <scene sceneID="6mD-hE-Qha">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7nO-6n-OfJ" customClass="CustomNavBar" customModule="HackTheCity" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="OUW-1B-eMD"/>
+                    <tabBarItem key="tabBarItem" title="Mentors" id="OUW-1B-eMD"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QCg-fl-zmX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -111,11 +111,11 @@
             </objects>
             <point key="canvasLocation" x="1252" y="1142"/>
         </scene>
-        <!--Item-->
+        <!--Schedule-->
         <scene sceneID="JXx-wk-tHv">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9xV-OM-oQ7" customClass="CustomNavBar" customModule="HackTheCity" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="3PB-P1-PKQ"/>
+                    <tabBarItem key="tabBarItem" title="Schedule" id="3PB-P1-PKQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="d8t-Sl-qq3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

@@ -18,6 +18,8 @@
 		C2129D451C41D30B00AEBDA3 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2129D441C41D30B00AEBDA3 /* Map.storyboard */; };
 		C2129D471C41D39100AEBDA3 /* Announcements.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2129D461C41D39100AEBDA3 /* Announcements.storyboard */; };
 		C2129D491C41D57E00AEBDA3 /* ScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2129D481C41D57E00AEBDA3 /* ScheduleCell.swift */; };
+		C2129D4F1C41D69A00AEBDA3 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2129D4E1C41D69A00AEBDA3 /* ScheduleViewController.swift */; };
+		C2129D531C41D7D200AEBDA3 /* ScheduleStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2129D521C41D7D200AEBDA3 /* ScheduleStruct.swift */; };
 		C2FDA1C01C41ADE6000A0024 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDA1BF1C41ADE6000A0024 /* EventsViewController.swift */; };
 		C2FDA1C21C41AE53000A0024 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDA1C11C41AE53000A0024 /* MapViewController.swift */; };
 		C2FDA1C41C41AE5D000A0024 /* MentorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDA1C31C41AE5D000A0024 /* MentorsViewController.swift */; };
@@ -61,6 +63,8 @@
 		C2129D441C41D30B00AEBDA3 /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		C2129D461C41D39100AEBDA3 /* Announcements.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Announcements.storyboard; sourceTree = "<group>"; };
 		C2129D481C41D57E00AEBDA3 /* ScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCell.swift; sourceTree = "<group>"; };
+		C2129D4E1C41D69A00AEBDA3 /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		C2129D521C41D7D200AEBDA3 /* ScheduleStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleStruct.swift; sourceTree = "<group>"; };
 		C2FDA1BF1C41ADE6000A0024 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		C2FDA1C11C41AE53000A0024 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C2FDA1C31C41AE5D000A0024 /* MentorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentorsViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				C2129D461C41D39100AEBDA3 /* Announcements.storyboard */,
+				C2FDA1BF1C41ADE6000A0024 /* EventsViewController.swift */,
 				C2FDA1CB1C41B380000A0024 /* Objects.swift */,
 				C2FDA1C91C41B115000A0024 /* EventCell.swift */,
 			);
@@ -181,8 +186,9 @@
 			isa = PBXGroup;
 			children = (
 				C2129D421C41D2F800AEBDA3 /* Schedule.storyboard */,
+				C2129D4E1C41D69A00AEBDA3 /* ScheduleViewController.swift */,
 				C2129D481C41D57E00AEBDA3 /* ScheduleCell.swift */,
-				C2FDA1BF1C41ADE6000A0024 /* EventsViewController.swift */,
+				C2129D521C41D7D200AEBDA3 /* ScheduleStruct.swift */,
 			);
 			name = Schedule;
 			sourceTree = "<group>";
@@ -322,8 +328,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2066DD41BC570DB00108981 /* AppDelegate.swift in Sources */,
+				C2129D531C41D7D200AEBDA3 /* ScheduleStruct.swift in Sources */,
 				C2FDA1CC1C41B380000A0024 /* Objects.swift in Sources */,
 				C2FDA1C61C41AECA000A0024 /* CustomNav.swift in Sources */,
+				C2129D4F1C41D69A00AEBDA3 /* ScheduleViewController.swift in Sources */,
 				C2129D491C41D57E00AEBDA3 /* ScheduleCell.swift in Sources */,
 				C2FDA1C01C41ADE6000A0024 /* EventsViewController.swift in Sources */,
 				C2FDA1C41C41AE5D000A0024 /* MentorsViewController.swift in Sources */,

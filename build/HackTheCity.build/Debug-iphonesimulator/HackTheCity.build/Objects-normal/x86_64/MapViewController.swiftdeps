@@ -7,8 +7,8 @@ provides-member:
 - ["C11HackTheCity17MapViewController", ""]
 provides-dynamic-lookup:
 - "didReceiveMemoryWarning"
-- "dateTime"
 - "viewDidLoad"
+- "dateTime"
 depends-top-level:
 - "MapViewController"
 - "StringLiteralType"

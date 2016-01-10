@@ -21,13 +21,13 @@ class EventsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // set the title to the datetime
         self.navigationItem.title = dateTime
         
-        var event = eventObject(name: "Check-in", desc: "Check in at 6 Metrotech with your ID and collect the swag more stuff and text I’m fliing here for no reason haha haha haha haha haha", time: "8AM - 9AM")
+        var event = eventObject(name: "Food is Ready!", desc: "Menu: Burritos and Chips. Vegan options are also available", time: "12-00 PM")
         eventObjects.append(event)
         
-        event = eventObject(name: "Hacking Begins", desc: "Check in at 6 Metrotech with your ID and collect the swag more stuff and text I’m fliing here for no reason haha haha haha haha haha", time: "9AM - 10AM")
+        event = eventObject(name: "Design Workshop", desc: "For upgrading your design skills and to make your hacks look better.", time: "08-00PM")
         eventObjects.append(event)
         
-        event = eventObject(name: "Nodejs workshop", desc: "Check in at 6 Metrotech with your ID and collect the swag more stuff and text I’m fliing here for no reason haha haha haha haha haha", time: "10AM - 11AM")
+        event = eventObject(name: "AWS showcase", desc: "If you want to know about how to work with the AWS API then you can attend this session. Location: The Bronx", time: "11-00PM")
         eventObjects.append(event)
         
         // Do any additional setup after loading the view.
