@@ -87,6 +87,7 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import CoreLocation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -147,12 +148,18 @@ SWIFT_CLASS("_TtC11HackTheCity20EventsViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class CLLocation;
+@class MKMapView;
 
 SWIFT_CLASS("_TtC11HackTheCity17MapViewController")
 @interface MapViewController : UIViewController
 @property (nonatomic, copy) NSString * __nonnull dateTime;
+@property (nonatomic, readonly, strong) CLLocation * __nonnull initialLocation;
+@property (nonatomic, readonly) CLLocationDistance regionRadius;
+@property (nonatomic, weak) IBOutlet MKMapView * __null_unspecified mapView;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (void)centerMapOnLocation:(CLLocation * __nonnull)location;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

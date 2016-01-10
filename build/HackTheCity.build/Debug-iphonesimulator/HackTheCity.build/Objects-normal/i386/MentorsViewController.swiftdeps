@@ -7,19 +7,19 @@ provides-member:
 - ["C11HackTheCity21MentorsViewController", ""]
 provides-dynamic-lookup:
 - "numberOfSectionsInTableView"
+- "tableView"
+- "tableView"
 - "didReceiveMemoryWarning"
-- "tableView"
-- "tableView"
 - "viewDidLoad"
 depends-top-level:
-- "UITableViewDataSource"
-- "Int"
+- "NSIndexPath"
 - "UITableView"
 - "UIViewController"
-- "NSIndexPath"
-- !private "StringLiteralType"
-- "UITableViewCell"
+- "UITableViewDataSource"
 - "MentorsViewController"
+- !private "StringLiteralType"
+- "Int"
+- "UITableViewCell"
 depends-member:
 - !private ["PSs9AnyObject", "UITableViewCell"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]

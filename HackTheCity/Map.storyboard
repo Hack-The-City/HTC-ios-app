@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="ev2-dy-lj5">
             <objects>
-                <viewController id="qWv-DG-sEB" sceneMemberID="viewController">
+                <viewController id="qWv-DG-sEB" customClass="MapViewController" customModule="HackTheCity" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="x4a-3q-4Nv"/>
                         <viewControllerLayoutGuide type="bottom" id="dmn-mC-eid"/>
@@ -15,8 +15,22 @@
                     <view key="view" contentMode="scaleToFill" id="u2g-p7-uzG">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="nB7-rv-by4">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nB7-rv-by4" firstAttribute="leading" secondItem="u2g-p7-uzG" secondAttribute="leading" id="Fzk-UD-cOU"/>
+                            <constraint firstItem="nB7-rv-by4" firstAttribute="top" secondItem="u2g-p7-uzG" secondAttribute="top" id="Jzx-iK-cAt"/>
+                            <constraint firstAttribute="trailing" secondItem="nB7-rv-by4" secondAttribute="trailing" id="XGR-2h-qeZ"/>
+                            <constraint firstItem="nB7-rv-by4" firstAttribute="bottom" secondItem="dmn-mC-eid" secondAttribute="top" id="Zk3-GH-SCo"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="nB7-rv-by4" id="e4s-yL-e7h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="82t-m9-jMo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

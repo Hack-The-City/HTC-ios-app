@@ -6,142 +6,305 @@ provides-nominal:
 provides-member:
 - ["C11HackTheCity17MapViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
-- "viewDidLoad"
 - "dateTime"
+- "didReceiveMemoryWarning"
+- "regionRadius"
+- "mapView"
+- "centerMapOnLocation"
+- "viewDidLoad"
+- "initialLocation"
 depends-top-level:
-- "MapViewController"
+- "CLLocationDistance"
 - "StringLiteralType"
+- !private "MKCoordinateRegionMakeWithDistance"
+- "MKMapView"
+- !private "*"
+- "MapViewController"
+- "CLLocation"
 - "UIViewController"
+- !private "BooleanLiteralType"
 depends-member:
+- ["PSs9AnyObject", "CLLocation"]
+- !private ["PSs9AnyObject", "MKCoordinateRegionMakeWithDistance"]
+- ["PSs9AnyObject", "centerMapOnLocation"]
+- !private ["PSs9AnyObject", "coordinate"]
 - ["PSs9AnyObject", "dateTime"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "initialLocation"]
+- ["PSs9AnyObject", "mapView"]
 - !private ["PSs9AnyObject", "navigationItem"]
+- ["PSs9AnyObject", "regionRadius"]
+- !private ["PSs9AnyObject", "setRegion"]
 - !private ["PSs9AnyObject", "title"]
 - ["PSs9AnyObject", "viewDidLoad"]
 - ["PSs9AnyObject", ""]
+- !private ["CSo10CLLocation", "coordinate"]
+- ["CSo10CLLocation", "init"]
+- ["PSs11CVarArgType", "CLLocation"]
+- !private ["PSs11CVarArgType", "MKCoordinateRegionMakeWithDistance"]
+- ["PSs11CVarArgType", "centerMapOnLocation"]
+- !private ["PSs11CVarArgType", "coordinate"]
 - ["PSs11CVarArgType", "dateTime"]
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
 - ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "initialLocation"]
+- ["PSs11CVarArgType", "mapView"]
 - !private ["PSs11CVarArgType", "navigationItem"]
+- ["PSs11CVarArgType", "regionRadius"]
+- !private ["PSs11CVarArgType", "setRegion"]
 - !private ["PSs11CVarArgType", "title"]
 - ["PSs11CVarArgType", "viewDidLoad"]
 - ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "CLLocation"]
+- !private ["PSs23CustomStringConvertible", "MKCoordinateRegionMakeWithDistance"]
+- ["PSs23CustomStringConvertible", "centerMapOnLocation"]
+- !private ["PSs23CustomStringConvertible", "coordinate"]
 - ["PSs23CustomStringConvertible", "dateTime"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
 - ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "initialLocation"]
+- ["PSs23CustomStringConvertible", "mapView"]
 - !private ["PSs23CustomStringConvertible", "navigationItem"]
+- ["PSs23CustomStringConvertible", "regionRadius"]
+- !private ["PSs23CustomStringConvertible", "setRegion"]
 - !private ["PSs23CustomStringConvertible", "title"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
 - ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "CLLocation"]
+- !private ["PSs9Equatable", "MKCoordinateRegionMakeWithDistance"]
+- ["PSs9Equatable", "centerMapOnLocation"]
+- !private ["PSs9Equatable", "coordinate"]
 - ["PSs9Equatable", "dateTime"]
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
 - ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "initialLocation"]
+- ["PSs9Equatable", "mapView"]
 - !private ["PSs9Equatable", "navigationItem"]
+- ["PSs9Equatable", "regionRadius"]
+- !private ["PSs9Equatable", "setRegion"]
 - !private ["PSs9Equatable", "title"]
 - ["PSs9Equatable", "viewDidLoad"]
 - ["PSs9Equatable", ""]
+- ["PSs8Hashable", "CLLocation"]
+- !private ["PSs8Hashable", "MKCoordinateRegionMakeWithDistance"]
+- ["PSs8Hashable", "centerMapOnLocation"]
+- !private ["PSs8Hashable", "coordinate"]
 - ["PSs8Hashable", "dateTime"]
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
 - ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "initialLocation"]
+- ["PSs8Hashable", "mapView"]
 - !private ["PSs8Hashable", "navigationItem"]
+- ["PSs8Hashable", "regionRadius"]
+- !private ["PSs8Hashable", "setRegion"]
 - !private ["PSs8Hashable", "title"]
 - ["PSs8Hashable", "viewDidLoad"]
 - ["PSs8Hashable", ""]
+- !private ["CSo9MKMapView", "setRegion"]
+- ["C11HackTheCity17MapViewController", "CLLocation"]
+- ["C11HackTheCity17MapViewController", "CLLocationDistance"]
+- !private ["C11HackTheCity17MapViewController", "MKCoordinateRegionMakeWithDistance"]
+- ["C11HackTheCity17MapViewController", "MKMapView"]
+- ["C11HackTheCity17MapViewController", "centerMapOnLocation"]
 - ["C11HackTheCity17MapViewController", "dateTime"]
 - ["C11HackTheCity17MapViewController", "deinit"]
 - ["C11HackTheCity17MapViewController", "didReceiveMemoryWarning"]
 - ["C11HackTheCity17MapViewController", "init"]
+- ["C11HackTheCity17MapViewController", "initialLocation"]
+- ["C11HackTheCity17MapViewController", "mapView"]
 - !private ["C11HackTheCity17MapViewController", "navigationItem"]
+- ["C11HackTheCity17MapViewController", "regionRadius"]
 - ["C11HackTheCity17MapViewController", "viewDidLoad"]
+- ["PSo8NSCoding", "CLLocation"]
+- !private ["PSo8NSCoding", "MKCoordinateRegionMakeWithDistance"]
+- ["PSo8NSCoding", "centerMapOnLocation"]
+- !private ["PSo8NSCoding", "coordinate"]
 - ["PSo8NSCoding", "dateTime"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "initialLocation"]
+- ["PSo8NSCoding", "mapView"]
 - !private ["PSo8NSCoding", "navigationItem"]
+- ["PSo8NSCoding", "regionRadius"]
+- !private ["PSo8NSCoding", "setRegion"]
 - !private ["PSo8NSCoding", "title"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "coordinate"]
+- ["PSo9NSCopying", "init"]
+- ["PSo26NSExtensionRequestHandling", "CLLocation"]
+- !private ["PSo26NSExtensionRequestHandling", "MKCoordinateRegionMakeWithDistance"]
+- ["PSo26NSExtensionRequestHandling", "centerMapOnLocation"]
 - ["PSo26NSExtensionRequestHandling", "dateTime"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "initialLocation"]
+- ["PSo26NSExtensionRequestHandling", "mapView"]
 - !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
+- ["PSo26NSExtensionRequestHandling", "regionRadius"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "CLLocation"]
+- ["CSo8NSObject", "CLLocationDistance"]
+- !private ["CSo8NSObject", "MKCoordinateRegionMakeWithDistance"]
+- ["CSo8NSObject", "MKMapView"]
+- ["CSo8NSObject", "centerMapOnLocation"]
+- !private ["CSo8NSObject", "coordinate"]
 - ["CSo8NSObject", "dateTime"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initialLocation"]
+- ["CSo8NSObject", "mapView"]
 - !private ["CSo8NSObject", "navigationItem"]
+- ["CSo8NSObject", "regionRadius"]
+- !private ["CSo8NSObject", "setRegion"]
 - !private ["CSo8NSObject", "title"]
 - ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "CLLocation"]
+- !private ["PSo16NSObjectProtocol", "MKCoordinateRegionMakeWithDistance"]
+- ["PSo16NSObjectProtocol", "centerMapOnLocation"]
+- !private ["PSo16NSObjectProtocol", "coordinate"]
 - ["PSo16NSObjectProtocol", "dateTime"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "initialLocation"]
+- ["PSo16NSObjectProtocol", "mapView"]
 - !private ["PSo16NSObjectProtocol", "navigationItem"]
+- ["PSo16NSObjectProtocol", "regionRadius"]
+- !private ["PSo16NSObjectProtocol", "setRegion"]
 - !private ["PSo16NSObjectProtocol", "title"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "coordinate"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "setRegion"]
+- !private ["PSo12UIAppearance", "setRegion"]
+- ["PSo21UIAppearanceContainer", "CLLocation"]
+- !private ["PSo21UIAppearanceContainer", "MKCoordinateRegionMakeWithDistance"]
+- ["PSo21UIAppearanceContainer", "centerMapOnLocation"]
 - ["PSo21UIAppearanceContainer", "dateTime"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "initialLocation"]
+- ["PSo21UIAppearanceContainer", "mapView"]
 - !private ["PSo21UIAppearanceContainer", "navigationItem"]
+- ["PSo21UIAppearanceContainer", "regionRadius"]
+- !private ["PSo21UIAppearanceContainer", "setRegion"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "CLLocation"]
+- !private ["PSo18UIContentContainer", "MKCoordinateRegionMakeWithDistance"]
+- ["PSo18UIContentContainer", "centerMapOnLocation"]
 - ["PSo18UIContentContainer", "dateTime"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "initialLocation"]
+- ["PSo18UIContentContainer", "mapView"]
 - !private ["PSo18UIContentContainer", "navigationItem"]
+- ["PSo18UIContentContainer", "regionRadius"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "setRegion"]
+- !private ["PSo13UIDynamicItem", "setRegion"]
+- ["PSo18UIFocusEnvironment", "CLLocation"]
+- !private ["PSo18UIFocusEnvironment", "MKCoordinateRegionMakeWithDistance"]
+- ["PSo18UIFocusEnvironment", "centerMapOnLocation"]
 - ["PSo18UIFocusEnvironment", "dateTime"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "initialLocation"]
+- ["PSo18UIFocusEnvironment", "mapView"]
 - !private ["PSo18UIFocusEnvironment", "navigationItem"]
+- ["PSo18UIFocusEnvironment", "regionRadius"]
+- !private ["PSo18UIFocusEnvironment", "setRegion"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["CSo16UINavigationItem", "title"]
+- ["CSo11UIResponder", "CLLocation"]
+- ["CSo11UIResponder", "CLLocationDistance"]
+- !private ["CSo11UIResponder", "MKCoordinateRegionMakeWithDistance"]
+- ["CSo11UIResponder", "MKMapView"]
+- ["CSo11UIResponder", "centerMapOnLocation"]
 - ["CSo11UIResponder", "dateTime"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
 - ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "initialLocation"]
+- ["CSo11UIResponder", "mapView"]
 - !private ["CSo11UIResponder", "navigationItem"]
+- ["CSo11UIResponder", "regionRadius"]
+- !private ["CSo11UIResponder", "setRegion"]
 - ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "CLLocation"]
+- !private ["PSo16UIStateRestoring", "MKCoordinateRegionMakeWithDistance"]
+- ["PSo16UIStateRestoring", "centerMapOnLocation"]
 - ["PSo16UIStateRestoring", "dateTime"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "initialLocation"]
+- ["PSo16UIStateRestoring", "mapView"]
 - !private ["PSo16UIStateRestoring", "navigationItem"]
+- ["PSo16UIStateRestoring", "regionRadius"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "CLLocation"]
+- !private ["PSo18UITraitEnvironment", "MKCoordinateRegionMakeWithDistance"]
+- ["PSo18UITraitEnvironment", "centerMapOnLocation"]
 - ["PSo18UITraitEnvironment", "dateTime"]
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "initialLocation"]
+- ["PSo18UITraitEnvironment", "mapView"]
 - !private ["PSo18UITraitEnvironment", "navigationItem"]
+- ["PSo18UITraitEnvironment", "regionRadius"]
+- !private ["PSo18UITraitEnvironment", "setRegion"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "setRegion"]
+- ["CSo16UIViewController", "CLLocation"]
+- ["CSo16UIViewController", "CLLocationDistance"]
+- !private ["CSo16UIViewController", "MKCoordinateRegionMakeWithDistance"]
+- ["CSo16UIViewController", "MKMapView"]
+- ["CSo16UIViewController", "centerMapOnLocation"]
 - ["CSo16UIViewController", "dateTime"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "initialLocation"]
+- ["CSo16UIViewController", "mapView"]
 - !private ["CSo16UIViewController", "navigationItem"]
+- ["CSo16UIViewController", "regionRadius"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
+- !private ["PSs12_Reflectable", "setRegion"]
 depends-nominal:
 - "PSs9AnyObject"
+- "CSo10CLLocation"
 - "PSs11CVarArgType"
 - "PSs23CustomStringConvertible"
 - "PSs9Equatable"
 - "PSs8Hashable"
+- !private "CSo9MKMapView"
 - "C11HackTheCity17MapViewController"
 - "PSo8NSCoding"
+- "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
 - "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
 - !private "CSo16UINavigationItem"
 - "CSo11UIResponder"
 - "PSo16UIStateRestoring"
 - "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
 - "CSo16UIViewController"
+- !private "PSs12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -152,4 +315,5 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "07cbee2ebb9e0dd2ec4de8444f7b30eb"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "0a39e6c40739e35bfa4e89432424ac55"

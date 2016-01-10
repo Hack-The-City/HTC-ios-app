@@ -7,15 +7,15 @@ provides-member:
 - ["C11HackTheCity9EventCell", ""]
 provides-dynamic-lookup:
 - "eventTime"
-- "awakeFromNib"
-- "eventDescription"
 - "setSelected"
 - "eventName"
+- "awakeFromNib"
+- "eventDescription"
 depends-top-level:
+- "Bool"
 - "UILabel"
 - "EventCell"
 - "UITableViewCell"
-- "Bool"
 depends-member:
 - ["PSs9AnyObject", "awakeFromNib"]
 - ["PSs9AnyObject", "eventDescription"]

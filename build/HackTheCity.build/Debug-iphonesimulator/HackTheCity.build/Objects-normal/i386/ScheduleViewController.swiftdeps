@@ -7,25 +7,25 @@ provides-member:
 - ["C11HackTheCity22ScheduleViewController", ""]
 provides-dynamic-lookup:
 - "dateTime"
+- "viewDidLoad"
 - "tableView"
 - "tableView"
 - "tableView"
 - "didReceiveMemoryWarning"
-- "viewDidLoad"
 depends-top-level:
-- "Array"
-- "UITableViewCell"
-- "ScheduleStruct"
-- "UITableViewDataSource"
+- "UITableView"
 - !private "BooleanLiteralType"
 - !private "ScheduleCell"
-- "UITableViewDelegate"
-- "NSIndexPath"
 - "ScheduleViewController"
-- "UIViewController"
-- "UITableView"
+- "ScheduleStruct"
 - "Int"
 - "StringLiteralType"
+- "UITableViewDelegate"
+- "UITableViewCell"
+- "UIViewController"
+- "UITableViewDataSource"
+- "NSIndexPath"
+- "Array"
 depends-member:
 - !private ["PSs9AnyObject", "ScheduleStruct"]
 - !private ["PSs9AnyObject", "automaticallyAdjustsScrollViewInsets"]

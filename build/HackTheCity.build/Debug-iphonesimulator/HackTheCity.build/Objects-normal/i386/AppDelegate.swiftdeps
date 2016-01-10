@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C11HackTheCity11AppDelegate", ""]
 provides-dynamic-lookup:
+- "applicationDidEnterBackground"
+- "application"
+- "applicationWillEnterForeground"
+- "applicationDidBecomeActive"
 - "applicationWillResignActive"
 - "applicationWillTerminate"
-- "application"
-- "applicationDidBecomeActive"
 - "window"
-- "applicationWillEnterForeground"
-- "applicationDidEnterBackground"
 depends-top-level:
-- "NSObject"
 - "UIApplication"
-- "AnyObject"
+- !private "BooleanLiteralType"
+- "UIWindow"
 - "AppDelegate"
 - "Bool"
-- "UIWindow"
-- !private "BooleanLiteralType"
-- "UIApplicationDelegate"
 - "UIResponder"
+- "NSObject"
+- "AnyObject"
+- "UIApplicationDelegate"
 depends-member:
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]

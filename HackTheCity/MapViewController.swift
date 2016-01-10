@@ -7,15 +7,24 @@
 //
 
 import UIKit
+import MapKit
 
 class MapViewController: UIViewController {
 
     var dateTime = "10Hrs 31Mins"
+    let initialLocation = CLLocation(latitude: 40.6940741, longitude: -73.9891265)
+    let regionRadius: CLLocationDistance = 500
+    
+    @IBOutlet weak var mapView: MKMapView!
+    
+    //40.6940741,-73.9891265,17
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        centerMapOnLocation(initialLocation)
         
         // load date time from db here
         
@@ -27,6 +36,15 @@ class MapViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func centerMapOnLocation(location: CLLocation) {
+        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
+            regionRadius * 2.0, regionRadius * 2.0)
+        mapView.setRegion(coordinateRegion, animated: true)
+    }
+    
+
+    
     
 
     /*
