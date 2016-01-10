@@ -160,6 +160,7 @@ SWIFT_CLASS("_TtC11HackTheCity17MapViewController")
 @property (nonatomic, readonly) CLLocationDistance indoorRadius;
 @property (nonatomic, weak) IBOutlet MKMapView * __null_unspecified mapView;
 @property (nonatomic, weak) IBOutlet UISegmentedControl * __null_unspecified segment;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified line1;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (IBAction)segmentControl:(UISegmentedControl * __nonnull)sender;

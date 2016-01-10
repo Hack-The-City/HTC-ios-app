@@ -17,6 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="nB7-rv-by4">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </mapView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="PZp-AH-Rze">
                                 <rect key="frame" x="20" y="20" width="560" height="29"/>
                                 <segments>
@@ -27,22 +30,33 @@
                                     <action selector="segmentControl:" destination="qWv-DG-sEB" eventType="valueChanged" id="CRv-qu-4Ht"/>
                                 </connections>
                             </segmentedControl>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="nB7-rv-by4">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main Hacking Area" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQq-03-hb0">
+                                <rect key="frame" x="20" y="121" width="560" height="357"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="357" id="LkY-RV-JnL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="nB7-rv-by4" firstAttribute="leading" secondItem="u2g-p7-uzG" secondAttribute="leading" id="Fzk-UD-cOU"/>
+                            <constraint firstItem="zQq-03-hb0" firstAttribute="leading" secondItem="PZp-AH-Rze" secondAttribute="leading" id="GFK-WC-vcK"/>
                             <constraint firstItem="nB7-rv-by4" firstAttribute="top" secondItem="u2g-p7-uzG" secondAttribute="top" id="Jzx-iK-cAt"/>
                             <constraint firstItem="PZp-AH-Rze" firstAttribute="top" secondItem="x4a-3q-4Nv" secondAttribute="bottom" id="Nyw-Ic-ohf"/>
+                            <constraint firstItem="zQq-03-hb0" firstAttribute="trailing" secondItem="PZp-AH-Rze" secondAttribute="trailing" id="RcV-UV-bL9"/>
                             <constraint firstItem="PZp-AH-Rze" firstAttribute="centerX" secondItem="nB7-rv-by4" secondAttribute="centerX" id="TgH-LA-Gim"/>
                             <constraint firstAttribute="trailing" secondItem="nB7-rv-by4" secondAttribute="trailing" id="XGR-2h-qeZ"/>
                             <constraint firstItem="nB7-rv-by4" firstAttribute="bottom" secondItem="dmn-mC-eid" secondAttribute="top" id="Zk3-GH-SCo"/>
                             <constraint firstItem="PZp-AH-Rze" firstAttribute="leading" secondItem="u2g-p7-uzG" secondAttribute="leadingMargin" id="f9P-ra-Luq"/>
+                            <constraint firstItem="dmn-mC-eid" firstAttribute="top" secondItem="zQq-03-hb0" secondAttribute="bottom" constant="122" id="mXB-wI-S8c"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="line1" destination="zQq-03-hb0" id="Wp1-9i-148"/>
                         <outlet property="mapView" destination="nB7-rv-by4" id="e4s-yL-e7h"/>
                         <outlet property="segment" destination="PZp-AH-Rze" id="qic-4g-bLr"/>
                     </connections>

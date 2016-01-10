@@ -15,12 +15,13 @@ class MapViewController: UIViewController {
     let initialLocation = CLLocation(latitude: 40.694201, longitude: -73.986477705)
     //let regionRadius: CLLocationDistance = 100
     let outdoorRadius : CLLocationDistance = 100
-    let indoorRadius : CLLocationDistance = 50
+    let indoorRadius : CLLocationDistance = 0
     
     //40.694202,-73.986477718
     
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var segment: UISegmentedControl!
+    @IBOutlet weak var line1: UILabel!
     
     
     override func viewDidLoad() {
@@ -34,7 +35,8 @@ class MapViewController: UIViewController {
         
         // set the title to the datetime
         self.navigationItem.title = dateTime
-        view.addSubview(segment)
+        
+        line1.hidden = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,8 +49,10 @@ class MapViewController: UIViewController {
         {
             case 0:
                 centerMapOnLocation(initialLocation, radius: outdoorRadius)
+                line1.hidden = true
             case 1:
                 centerMapOnLocation(initialLocation, radius: indoorRadius)
+                line1.hidden = false
             default:
                 break;
         }
