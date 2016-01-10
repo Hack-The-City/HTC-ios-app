@@ -13,11 +13,14 @@ class MapViewController: UIViewController {
 
     var dateTime = "10Hrs 31Mins"
     let initialLocation = CLLocation(latitude: 40.694201, longitude: -73.986477705)
-    let regionRadius: CLLocationDistance = 100
+    //let regionRadius: CLLocationDistance = 100
+    let outdoorRadius : CLLocationDistance = 100
+    let indoorRadius : CLLocationDistance = 50
     
     //40.694202,-73.986477718
     
     @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var segment: UISegmentedControl!
     
     
     override func viewDidLoad() {
@@ -25,12 +28,13 @@ class MapViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        centerMapOnLocation(initialLocation)
+        centerMapOnLocation(initialLocation, radius: outdoorRadius)
         
         // load date time from db here
         
         // set the title to the datetime
         self.navigationItem.title = dateTime
+        view.addSubview(segment)
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,14 +42,24 @@ class MapViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func centerMapOnLocation(location: CLLocation) {
-        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
-            regionRadius * 2.0, regionRadius * 2.0)
-        mapView.setRegion(coordinateRegion, animated: true)
+    @IBAction func segmentControl(sender: UISegmentedControl) {
+        switch segment.selectedSegmentIndex
+        {
+            case 0:
+                centerMapOnLocation(initialLocation, radius: outdoorRadius)
+            case 1:
+                centerMapOnLocation(initialLocation, radius: indoorRadius)
+            default:
+                break;
+        }
     }
     
+    func centerMapOnLocation(location: CLLocation, radius : CLLocationDistance) {
+        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
+            radius * 2.0, radius * 2.0)
+        mapView.setRegion(coordinateRegion, animated: true)
+    }
 
-    
     
 
     /*

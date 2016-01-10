@@ -87,6 +87,7 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import CoreLocation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -121,13 +122,12 @@ SWIFT_CLASS("_TtC11HackTheCity12CustomNavBar")
 @end
 
 @class UILabel;
-@class UITextView;
 
 SWIFT_CLASS("_TtC11HackTheCity9EventCell")
 @interface EventCell : UITableViewCell
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified eventName;
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified eventTime;
-@property (nonatomic, weak) IBOutlet UITextView * __null_unspecified eventDesc;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified eventDescription;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
@@ -148,12 +148,22 @@ SWIFT_CLASS("_TtC11HackTheCity20EventsViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class CLLocation;
+@class UISegmentedControl;
+@class MKMapView;
 
 SWIFT_CLASS("_TtC11HackTheCity17MapViewController")
 @interface MapViewController : UIViewController
 @property (nonatomic, copy) NSString * __nonnull dateTime;
+@property (nonatomic, readonly, strong) CLLocation * __nonnull initialLocation;
+@property (nonatomic, readonly) CLLocationDistance outdoorRadius;
+@property (nonatomic, readonly) CLLocationDistance indoorRadius;
+@property (nonatomic, weak) IBOutlet MKMapView * __null_unspecified mapView;
+@property (nonatomic, weak) IBOutlet UISegmentedControl * __null_unspecified segment;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (IBAction)segmentControl:(UISegmentedControl * __nonnull)sender;
+- (void)centerMapOnLocation:(CLLocation * __nonnull)location radius:(CLLocationDistance)radius;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

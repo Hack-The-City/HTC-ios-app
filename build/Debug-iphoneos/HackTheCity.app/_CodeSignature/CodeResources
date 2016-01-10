@@ -10,17 +10,17 @@
 		</data>
 		<key>Announcements.storyboardc/UIViewController-X9u-QE-ZxX.nib</key>
 		<data>
-		JToNlruU++1c61v7ckL3oemhB8I=
+		C1RWMVQaFDYzehgFcwlaeZN4T78=
 		</data>
 		<key>Announcements.storyboardc/X9u-QE-ZxX-view-mDQ-OM-URi.nib</key>
 		<data>
-		i5R8dqmM37D6x/oGaFHk76+jHw8=
+		p7KAHpjjnvUagMnfzgNoO9DSdQU=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EQ5zJ/4jsah9lgNMdGiXDaIP/hc=
+			3y/scdV53zkFaSPriUkj+dQ598g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -38,7 +38,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			idcynEXnG0MgZ/yu/7vgXtykqG8=
+			kPzzVSHfvefXyOvGpt1DoL3NPno=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -56,7 +56,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ygRGMGhLm1xig583kyUzc2AHlIM=
+			uJ/W7qIohGG+uX3mn/vajbWF298=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -76,6 +76,10 @@
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
 		sSuMA3XTcOPgLPPE8aBCHj1cUUs=
+		</data>
+		<key>Frameworks/libswiftCoreLocation.dylib</key>
+		<data>
+		cxmqMpGLxXRjRgLHS6ws1laFvhw=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
@@ -107,11 +111,11 @@
 		</data>
 		<key>Map.storyboardc/UIViewController-qWv-DG-sEB.nib</key>
 		<data>
-		EexaeSH51OTRU3LgLmPr+hoMm7U=
+		Zd3T+3e2wwT5VYDhqYWkg0sJPwM=
 		</data>
 		<key>Map.storyboardc/qWv-DG-sEB-view-u2g-p7-uzG.nib</key>
 		<data>
-		opaewq/OwwV2Xm5akEmIQoBU6hk=
+		/xoJXPIikXSICqSuzq8S/0CciHs=
 		</data>
 		<key>Mentors.storyboardc/Info.plist</key>
 		<data>
@@ -119,11 +123,11 @@
 		</data>
 		<key>Mentors.storyboardc/UIViewController-qTA-sU-Bv2.nib</key>
 		<data>
-		0RL7foLg+GGOadCJIZwdVdm+VnQ=
+		9qCHYU3Xh+S63+vuYvtriN0yP+E=
 		</data>
 		<key>Mentors.storyboardc/qTA-sU-Bv2-view-XEk-7Z-u05.nib</key>
 		<data>
-		vQFpTsM7PzolsrluxBr1X+6TP/s=
+		car3rIos9NIn9Lad83SEzsb0k0Y=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -135,11 +139,11 @@
 		</data>
 		<key>Schedule.storyboardc/UIViewController-xQx-xF-Kw1.nib</key>
 		<data>
-		v9HkAhtPZkqeCug+4RfLOuBeLLg=
+		AL+LWd69LB2S2I8f38xcC3EtfHs=
 		</data>
 		<key>Schedule.storyboardc/xQx-xF-Kw1-view-bw2-vU-r8r.nib</key>
 		<data>
-		z/ARJ0MwBU6QWV16q2bCtRmzqZs=
+		v15T6wv3ZwOVzV/ILgUZ3LySsDU=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -154,17 +158,17 @@
 		</data>
 		<key>Announcements.storyboardc/UIViewController-X9u-QE-ZxX.nib</key>
 		<data>
-		JToNlruU++1c61v7ckL3oemhB8I=
+		C1RWMVQaFDYzehgFcwlaeZN4T78=
 		</data>
 		<key>Announcements.storyboardc/X9u-QE-ZxX-view-mDQ-OM-URi.nib</key>
 		<data>
-		i5R8dqmM37D6x/oGaFHk76+jHw8=
+		p7KAHpjjnvUagMnfzgNoO9DSdQU=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EQ5zJ/4jsah9lgNMdGiXDaIP/hc=
+			3y/scdV53zkFaSPriUkj+dQ598g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -182,7 +186,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			idcynEXnG0MgZ/yu/7vgXtykqG8=
+			kPzzVSHfvefXyOvGpt1DoL3NPno=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -200,7 +204,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ygRGMGhLm1xig583kyUzc2AHlIM=
+			uJ/W7qIohGG+uX3mn/vajbWF298=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -220,6 +224,10 @@
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
 		sSuMA3XTcOPgLPPE8aBCHj1cUUs=
+		</data>
+		<key>Frameworks/libswiftCoreLocation.dylib</key>
+		<data>
+		cxmqMpGLxXRjRgLHS6ws1laFvhw=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
@@ -247,11 +255,11 @@
 		</data>
 		<key>Map.storyboardc/UIViewController-qWv-DG-sEB.nib</key>
 		<data>
-		EexaeSH51OTRU3LgLmPr+hoMm7U=
+		Zd3T+3e2wwT5VYDhqYWkg0sJPwM=
 		</data>
 		<key>Map.storyboardc/qWv-DG-sEB-view-u2g-p7-uzG.nib</key>
 		<data>
-		opaewq/OwwV2Xm5akEmIQoBU6hk=
+		/xoJXPIikXSICqSuzq8S/0CciHs=
 		</data>
 		<key>Mentors.storyboardc/Info.plist</key>
 		<data>
@@ -259,11 +267,11 @@
 		</data>
 		<key>Mentors.storyboardc/UIViewController-qTA-sU-Bv2.nib</key>
 		<data>
-		0RL7foLg+GGOadCJIZwdVdm+VnQ=
+		9qCHYU3Xh+S63+vuYvtriN0yP+E=
 		</data>
 		<key>Mentors.storyboardc/qTA-sU-Bv2-view-XEk-7Z-u05.nib</key>
 		<data>
-		vQFpTsM7PzolsrluxBr1X+6TP/s=
+		car3rIos9NIn9Lad83SEzsb0k0Y=
 		</data>
 		<key>Schedule.storyboardc/Info.plist</key>
 		<data>
@@ -271,11 +279,11 @@
 		</data>
 		<key>Schedule.storyboardc/UIViewController-xQx-xF-Kw1.nib</key>
 		<data>
-		v9HkAhtPZkqeCug+4RfLOuBeLLg=
+		AL+LWd69LB2S2I8f38xcC3EtfHs=
 		</data>
 		<key>Schedule.storyboardc/xQx-xF-Kw1-view-bw2-vU-r8r.nib</key>
 		<data>
-		z/ARJ0MwBU6QWV16q2bCtRmzqZs=
+		v15T6wv3ZwOVzV/ILgUZ3LySsDU=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
